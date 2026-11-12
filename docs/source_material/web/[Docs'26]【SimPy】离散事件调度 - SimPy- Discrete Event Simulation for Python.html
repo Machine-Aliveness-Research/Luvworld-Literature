@@ -1,0 +1,161 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>SimPy: Discrete Event Simulation for Python</title><style>body{max-width:900px;margin:40px auto;padding:0 24px;font:16px/1.65 system-ui;color:#17202b}pre{white-space:pre-wrap;overflow-wrap:anywhere}aside{padding:18px;background:#eef4f8;border-radius:12px}a{color:#1665a8}</style><h1>SimPy: Discrete Event Simulation for Python</h1><aside><b>Official documentation/data-service entry. No corresponding single research-paper PDF.</b><br>Source: <a href="https://simpy.readthedocs.io/en/latest/">https://simpy.readthedocs.io/en/latest/</a><br>Retrieved: 2026-10-25<br>Readable text archive extracted from the retrieved official HTML; scripts and remote assets are omitted.</aside><pre>Overview — SimPy 4.1.2.dev16+gf43816490 documentation
+Overview
+View page source
+Discrete event simulation for Python
+
+PyPI
+|
+GitLab
+|
+Issues
+|
+Mailing list
+Overview
+
+Documentation
+Tutorial
+learn the basics of SimPy in just a couple of minutes
+Topical Guides
+guides covering various features of SimPy in-depth
+Examples
+usage examples for SimPy
+API Reference
+detailed description of SimPy’s API
+Contents
+for a complete overview
+About
+non-technical stuff (history, change logs, ports, …)
+SimPy is a process-based discrete-event simulation framework based on standard
+Python.
+Processes in SimPy are defined by Python
+generator functions
+and may, for example,
+be used to model active components like customers, vehicles or agents.  SimPy
+also provides various types of
+shared resources
+to
+model limited capacity congestion points (like servers, checkout counters and
+tunnels).
+Simulations can be performed
+“as fast as possible”
+,
+in
+real time
+(wall clock time) or by manually
+stepping
+through the events.
+Though it is theoretically possible to do continuous simulations with SimPy, it
+has no features that help you with that. On the other hand, SimPy is overkill
+for simulations with a fixed step size where your processes don’t interact with
+each other or with shared resources.
+A short example simulating two clocks ticking in different time intervals looks
+like this:
+&gt;&gt;&gt;
+import
+simpy
+&gt;&gt;&gt;
+&gt;&gt;&gt;
+def
+clock
+(
+env
+,
+name
+,
+tick
+):
+...
+while
+True
+:
+...
+print
+(
+name
+,
+env
+.
+now
+)
+...
+yield
+env
+.
+timeout
+(
+tick
+)
+...
+&gt;&gt;&gt;
+env
+=
+simpy
+.
+Environment
+()
+&gt;&gt;&gt;
+env
+.
+process
+(
+clock
+(
+env
+,
+&#x27;fast&#x27;
+,
+0.5
+))
+&lt;Process(clock) object at 0x...&gt;
+&gt;&gt;&gt;
+env
+.
+process
+(
+clock
+(
+env
+,
+&#x27;slow&#x27;
+,
+1
+))
+&lt;Process(clock) object at 0x...&gt;
+&gt;&gt;&gt;
+env
+.
+run
+(
+until
+=
+2
+)
+fast 0
+slow 0
+fast 0.5
+slow 1
+fast 1.0
+fast 1.5
+The documentation contains a
+tutorial
+,
+several guides
+explaining key concepts, a number of
+examples
+and the
+API reference
+.
+SimPy is released under the MIT License. Simulation model developers are
+encouraged to share their SimPy modeling techniques with the SimPy community.
+Please post a message to the
+SimPy mailing list
+.
+There is an introductory talk that explains SimPy’s concepts and provides some
+examples:
+watch the video
+or
+get the slides
+.
+SimPy has also been reimplemented in other programming languages. See the
+list of ports
+for more details.</pre></html>

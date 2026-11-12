@@ -1,0 +1,327 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>AutoGen v0.4: Reimagining the Foundation of Agentic AI for Scale, Extensibility, and Robustness</title><style>body{max-width:900px;margin:40px auto;padding:0 24px;font:16px/1.65 system-ui;color:#17202b}pre{white-space:pre-wrap;overflow-wrap:anywhere}aside{padding:18px;background:#eef4f8;border-radius:12px}a{color:#1665a8}</style><h1>AutoGen v0.4: Reimagining the Foundation of Agentic AI for Scale, Extensibility, and Robustness</h1><aside><b>Official documentation/data-service entry. No corresponding single research-paper PDF.</b><br>Source: <a href="https://www.microsoft.com/en-us/research/blog/autogen-v0-4-reimagining-the-foundation-of-agentic-ai-for-scale-extensibility-and-robustness/">https://www.microsoft.com/en-us/research/blog/autogen-v0-4-reimagining-the-foundation-of-agentic-ai-for-scale-extensibility-and-robustness/</a><br>Retrieved: 2026-10-25<br>Readable text archive extracted from the retrieved official HTML; scripts and remote assets are omitted.</aside><pre>AutoGen v0.4: Reimagining the foundation of agentic AI for scale, extensibility, and robustness - Microsoft Research
+Research
+Publications
+Code, datasets and models
+Artificial intelligence
+Audio &amp; acoustics
+Computer vision
+Graphics &amp; multimedia
+Human-computer interaction
+Human language technologies
+Search &amp; information retrieval
+Data platforms and analytics
+Hardware &amp; devices
+Programming languages &amp; software engineering
+Quantum computing
+Security, privacy &amp; cryptography
+Systems &amp; networking
+Algorithms
+Mathematics
+Ecology &amp; environment
+Economics
+Medical, health &amp; genomics
+Social sciences
+Technology for emerging markets
+Academic programs
+Events &amp; academic conferences
+Microsoft Research Forum
+Microsoft Research Blog
+Microsoft Research Podcast
+Microsoft Research Stories
+About Microsoft Research
+Careers &amp; internships
+People
+News &amp; awards
+AI for Science
+Asia-Pacific
+Cambridge
+Catalyst Lab
+India
+Montreal
+New England
+New York City
+Redmond
+Other research groups
+Register: Research Forum
+Microsoft Security
+Azure
+Dynamics 365
+Microsoft 365
+Microsoft Teams
+Windows 365
+Microsoft AI
+Azure Space
+Mixed reality
+Microsoft HoloLens
+Microsoft Viva
+Quantum computing
+Sustainability
+Education
+Automotive
+Financial services
+Government
+Healthcare
+Manufacturing
+Retail
+Find a partner
+Become a partner
+Partner Network
+Microsoft Marketplace
+Software companies
+Blog
+Microsoft Advertising
+Developer Center
+Documentation
+Events
+Licensing
+Microsoft Learn
+Microsoft Research
+View Sitemap
+Return to Blog Home
+Microsoft Research Blog
+Over the past year, our work on
+AutoGen
+has highlighted the transformative potential of agentic AI and multi-agent applications. Today, we are excited to announce AutoGen v0.4, a significant milestone informed by insights from our community of users and developers. This update represents a complete redesign of the AutoGen library, developed to improve code quality, robustness, generality, and scalability in agentic workflows.
+The initial release of
+AutoGen
+generated widespread interest in agentic technologies. At the same time, users struggled with architectural constraints, an inefficient API compounded by rapid growth, and limited debugging and intervention functionality. Feedback highlighted the need for stronger observability and control, more flexible multi-agent collaboration patterns, and reusable components. AutoGen v0.4 addresses these issues with its
+asynchronous, event-driven architecture
+.
+This update makes AutoGen more robust and extensible, enabling a broader range of agentic scenarios. The new framework includes the following features, inspired by feedback from both within and outside Microsoft.
+Asynchronous messaging
+: Agents communicate through asynchronous messages, supporting both event-driven and request/response interaction patterns.
+Modular and extensible
+: Users can easily customize systems with pluggable components, including custom agents, tools, memory, and models. They can also build proactive and long-running agents using event-driven patterns.
+Observability and debugging
+: Built-in metric tracking, message tracing, and debugging tools provide monitoring and control over agent interactions and workflows, with support for OpenTelemetry for industry-standard observability.
+Scalable and distributed
+: Users can design complex, distributed agent networks that operate seamlessly across organizational boundaries.
+Built-in and community extensions
+: The extensions module enhances the framework’s functionality with advanced model clients, agents, multi-agent teams, and tools for agentic workflows. Community support allows open-source developers to manage their own extensions.
+Cross-language support
+: This update enables interoperability between agents built in different programming languages, with current support for Python and .NET and additional languages in development.
+Full type support
+: Interfaces enforce type checks at build time, improving robustness and maintaining code quality.
+Spotlight: Event Series
+Microsoft Research Forum
+Join us for a continuous exchange of ideas about research in the era of general AI. Watch the latest episodes on demand.
+Watch on-demand
+Opens in a new tab
+New AutoGen framework
+As shown in Figure 1, the AutoGen framework features a layered architecture with clearly defined responsibilities across the framework, developer tools, and applications. The framework comprises three layers: core, agent chat, and first-party extensions.
+Core:
+The foundational building blocks for an event-driven agentic system.
+AgentChat:
+A task-driven, high-level API built on the core layer, featuring group chat, code execution, pre-built agents, and more. This layer is most similar to
+AutoGen v0.2
+(opens in new tab)
+, making it the easiest API to migrate to.
+Extensions:
+Implementations of core interfaces and third-party integrations, such as the Azure code executor and OpenAI model client.
+Figure 1. The v0.4 update introduces a cohesive AutoGen ecosystem that includes the framework, developer tools, and applications. The framework’s layered architecture clearly defines each layer’s functionality. It supports both first-party and third-party applications and extensions.
+Developer tools
+In addition to the framework, AutoGen 0.4 includes upgraded programming tools and applications, designed to support developers in building and experimenting with AutoGen.
+AutoGen Bench
+(opens in new tab)
+:
+Enables developers to benchmark their agents by measuring and comparing performance across tasks and environments.
+AutoGen Studio
+(opens in new tab)
+:
+Rebuilt on the v0.4 AgentChat API, this low-code interface enables rapid prototyping of AI agents. It introduces several new capabilities:
+Real-time agent updates:
+View agent action streams in real time with asynchronous, event-driven messages.
+Mid-execution control:
+Pause conversations, redirect agent actions, and adjust team composition. Then seamlessly resume tasks.
+Interactive feedback through the UI:
+Add a UserProxyAgent to enable user input and guidance during team runs in real time.
+Message flow visualization:
+Understand agent communication through an intuitive visual interface that maps message paths and dependencies.
+Drag-and-drop team builder:
+Design agent teams visually using an interface for dragging components into place and configuring their relationships and properties.
+Third-party component galleries:
+Import and use custom agents, tools, and workflows from external galleries to extend functionality.
+Magentic-One
+:
+A new generalist multi-agent application to solve open-ended web and file-based tasks across various domains. This tool marks a significant step toward creating agents capable of completing tasks commonly encountered in both work and personal contexts.
+Migrating to AutoGen v0.4
+We implemented several measures to facilitate a smooth upgrade from the previous v0.2 API, addressing core differences in the underlying architecture.
+First, the AgentChat API maintains the same level of abstraction as v0.2, making it easy to migrate existing code to v0.4. For example, AgentChat offers an AssistantAgent and UserProxy agent with similar behaviors to those in v0.2. It also provides a team interface with implementations like RoundRobinGroupChat and SelectorGroupChat, which cover all the capabilities of the GroupChat class in v0.2. Additionally, v0.4 introduces many new functionalities, such as streaming messages, improved observability, saving and restoring task progress, and resuming paused actions where they left off.
+For detailed guidance, refer to the
+migration guide
+(opens in new tab)
+.
+Looking forward
+This new release sets the stage for a robust ecosystem and strong foundation to drive advances in agentic AI application and research. Our roadmap includes releasing .NET support, introducing built-in, well-designed applications and extensions for challenging domains, and fostering a community-driven ecosystem. We remain committed to the responsible development of AutoGen and its evolving capabilities.
+We encourage you to engage with us on
+AutoGen’s Discord server
+(opens in new tab)
+and share feedback on the official
+AutoGen repository
+(opens in new tab)
+via GitHub Issues.  Stay up to date with frequent AutoGen updates via
+X
+(opens in new tab)
+.
+Acknowledgments
+We would like to thank the many individuals whose ideas and insights helped formalize the concepts introduced in this release, including
+Rajan Chari
+,
+Ece Kamar
+,
+John Langford
+,
+Ching-An Chen
+, Bob West, Paul Minero, Safoora Yousefi, Will Epperson, Grace Proebsting, Enhao Zhang, and Andrew Ng.
+Opens in a new tab
+Meet the authors
+Adam Fourney
+Senior Principal Researcher
+Learn more
+Ahmed Awadallah
+Partner Research Manager
+Cheng Tan
+Principal Software Development Engineer
+Learn more
+Erkang (Eric) Zhu
+Principal Researcher
+Friederike Niedtner
+Principal Technical Research Program Manager
+Learn more
+Gagan Bansal
+Principal Researcher
+Jack Gerrits
+Principal Software Development Engineer
+Jacob Alber
+Principal Software Engineer
+Peter Chang
+Senior Software Development Engineer
+Rafah Hosn
+Partner, Group Program Manager
+Ricky Loynd
+Senior Research Software Engineer
+Saleema Amershi
+Partner Research Manager, Microsoft AI Frontiers
+Learn more
+Victor Dibia
+Principal Research Software Engineer
+XiaoYun Zhang
+Senior Software Engineer
+Microsoft
+Learn more
+Li Jiang
+Senior Software Engineer
+Microsoft
+Learn more
+Ryan Sweet
+Principal Applied Scientist
+Microsoft
+Leonardo Pinheiro
+Senior Machine Learning Engineer
+Microsoft
+Learn more
+Mohammad Mazraeh
+Senior Software Engineer
+Microsoft
+Learn more
+Gerardo Moreno Zizumbo
+Software Engineer
+Microsoft
+Kosta Petan
+Senior Specialist GBB
+Microsoft
+Learn more
+Aamir Jawaid
+Senior Software Engineer
+Microsoft
+Learn more
+Reuben Bond
+Principal Software Development Engineer
+Microsoft
+Learn more
+Diego Colombo
+Principal Software Engineer
+Microsoft
+Learn more
+Hussein Mozannar
+Senior Researcher
+Learn more
+Research Areas
+Artificial intelligence
+Related Tools
+AutoGen
+Related projects
+AutoGen
+Related labs
+Microsoft Research AI Frontiers
+Follow us:
+Follow on X
+Like on Facebook
+Follow on LinkedIn
+Subscribe on Youtube
+Follow on Instagram
+Subscribe to our RSS feed
+Share this page:
+Share on X
+Share on Facebook
+Share on LinkedIn
+Share on Reddit
+Surface Laptop Ultra
+Surface Pro
+Surface Laptop
+Surface RTX Spark Dev Box
+Explore Copilot
+Explore Microsoft products
+Windows 11 apps
+Account profile
+Download Center
+Microsoft Store support
+Returns
+Order tracking
+Certified Refurbished
+Why buy from Microsoft Store
+Flexible Payments
+Microsoft in education
+Devices for education
+Microsoft Teams for Education
+Microsoft 365 Education
+How to buy for your school
+Educator training and development
+Deals for students and parents
+AI for education
+Microsoft AI
+Microsoft Security
+Dynamics 365
+Microsoft 365
+Microsoft Power Platform
+Microsoft Teams
+Microsoft Copilot
+Small Business
+Azure
+Microsoft Developer
+Microsoft Learn
+Support for AI marketplace apps
+Microsoft Tech Community
+Microsoft Marketplace
+Software companies
+Visual Studio
+Careers
+About Microsoft
+Company news
+Privacy at Microsoft
+Investors
+Diversity and inclusion
+Accessibility
+Sustainability
+Your Privacy Choices Opt-Out Icon
+Your Privacy Choices
+Consumer Health Privacy
+Sitemap
+Contact Microsoft
+Privacy
+Manage cookies
+Terms of use
+Trademarks
+Safety &amp; eco
+Recycling
+About our ads</pre></html>

@@ -1,0 +1,527 @@
+{
+  "snapshotDate": "2026-11-12",
+  "schemaVersion": "1.0",
+  "catalogueRecords": 98,
+  "atlasPath": "atlas/FamilySim_Research_Atlas_v1.0.html",
+  "sourceHtmlSHA256": "2137d2d4c78347cc880120a9b3dbf7dfd45dba46d023676a8f24e20c4ebf80eb",
+  "pdfFiles": 89,
+  "officialWebArchives": 10,
+  "totalBytes": 431755256,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "atlas/FamilySim_Research_Atlas_v1.0.html",
+      "bytes": 2072282,
+      "sha256": "2137d2d4c78347cc880120a9b3dbf7dfd45dba46d023676a8f24e20c4ebf80eb"
+    },
+    {
+      "path": "docs/source_material/papers/[AAAI'22]【TEACh】对话指挥家务 - TEACh- Task-Driven Embodied Agents That Chat.pdf",
+      "bytes": 2831951,
+      "sha256": "19f8de256f0fa1af5c7a3d3a26f8d4a6f98fc362d869c8cd99ca9b95780a09bd"
+    },
+    {
+      "path": "docs/source_material/papers/[AAMAS Demo'26]【BotVerse】事件驱动社会 - BotVerse- Real-Time Event-Driven Simulation of Social Agents.pdf",
+      "bytes": 1846592,
+      "sha256": "d2bc8d7d0048de986a89f51a826cb242ddd5c5efae08d17db2964b7140d4e54a"
+    },
+    {
+      "path": "docs/source_material/papers/[ACL Findings'25]【BehaviorChain】个性行为链 - How Far are LLMs from Being Our Digital Twins? A Benchmark for Persona-Based Behavior Chain Simulation.pdf",
+      "bytes": 1867083,
+      "sha256": "a66f6a0f4c47311e6c02b131c0bd1fdd8b0ba526b8b12a2716e7f66630281b50"
+    },
+    {
+      "path": "docs/source_material/papers/[ACL Findings'26]【MTR-DuplexBench】多轮全双工评测 - MTR-DuplexBench- Towards a Comprehensive Evaluation of Multi-Round Conversations for Full-Duplex Speech Language Models.pdf",
+      "bytes": 601038,
+      "sha256": "ce32c1063c48005c2bf27cedef2ed7c6c1ec4cb01c5da0707daead4a9a9dd45d"
+    },
+    {
+      "path": "docs/source_material/papers/[ACL'26]【MultiTurn Behavior】线上购物点击 - Can LLM Agents Simulate Multi-Turn Human Behavior? Evidence from Real Online Customer Behavior Data.pdf",
+      "bytes": 757374,
+      "sha256": "47b0bb22d0125569392167f509907fc9d241f72e2e8dcc4da024634055a3bd7e"
+    },
+    {
+      "path": "docs/source_material/papers/[AI'26]【MASS】定量模拟协议 - Multi-Agent Social Simulation- Protocolizing LLM-Driven Agent-Based Modeling as a Quantitative Research Method.pdf",
+      "bytes": 932397,
+      "sha256": "6a437a8323adc3ca560fc33c7442b0705fdecad6ac1c78f1c96613b2244913c0"
+    },
+    {
+      "path": "docs/source_material/papers/[CHI EA'05]【MIT PlaceLab】真实居住实验室 - A Living Laboratory for the Design and Evaluation of Ubiquitous Computing Technologies.pdf",
+      "bytes": 374947,
+      "sha256": "3eab54ec28dd5d76832d6e488f1be2f3bb1b69c49be1a9c2a9cece296a659f0f"
+    },
+    {
+      "path": "docs/source_material/papers/[CHI'18]【ExtraSensory】野外自报行为 - ExtraSensory App- Data Collection In-the-Wild with Rich User Interface to Self-Report Behavior.pdf",
+      "bytes": 1742062,
+      "sha256": "4ba9e751824131784393e9a13cedf073c161716644f175a656c188c2df553357"
+    },
+    {
+      "path": "docs/source_material/papers/[CHiME Workshop'20]【CHiME-6 (CHiME-5 corrected)】多人语音校正 - CHiME-6 Challenge- Tackling Multispeaker Speech Recognition for Unsegmented Recordings.pdf",
+      "bytes": 185297,
+      "sha256": "c702cd407b6124d0e314610ec3baba1fd552ef74f044aadba97e535c3995c997"
+    },
+    {
+      "path": "docs/source_material/papers/[COLM Workshop'26]【SIMLIFE】长期伙伴模式 - SIMLIFE- Pattern Understanding for Long-Horizon Human-Agent Partnership.pdf",
+      "bytes": 5727089,
+      "sha256": "3ed1e5665ac6ff559048846750ee98626272175235c0b39e2aaf2b11861a1ef4"
+    },
+    {
+      "path": "docs/source_material/papers/[COLM'24]【AutoGen】多代理会话 - AutoGen- Enabling Next-Gen LLM Applications via Multi-Agent Conversations.pdf",
+      "bytes": 3366208,
+      "sha256": "40e767979318e4e4098c6ba573f34d232db5d5755b9ca5294ad00bdb0c828979"
+    },
+    {
+      "path": "docs/source_material/papers/[COLM'25]【RefOI】语用指代表达 - Vision-Language Models Are Not Pragmatically Competent in Referring Expression Generation.pdf",
+      "bytes": 26045611,
+      "sha256": "28286957fcc0c0276022f55a2f1ef6c7bb78376883909a3da22e64d5153fef0f"
+    },
+    {
+      "path": "docs/source_material/papers/[COLM'26]【AgentWorld】RPG因果协作 - AgentWorld- Benchmarking Long-Horizon Collaboration of Multi-agent LLMs.pdf",
+      "bytes": 4581461,
+      "sha256": "dc94f156005c68bfbac9a137814473b5df8d8ecde634f1ff4da898bd0470d33a"
+    },
+    {
+      "path": "docs/source_material/papers/[COLM'26]【EgoMemReason】周级生活记忆 - EgoMemReason- A Memory-Driven Reasoning Benchmark for Long-Horizon Egocentric Video Understanding.pdf",
+      "bytes": 4967356,
+      "sha256": "e570e6949ee94a570a658e04b2639f3e0b3cf629dece2cd3e5320318620d3086"
+    },
+    {
+      "path": "docs/source_material/papers/[COLM'26]【HandRaiser】学习发言时机 - Learning to Interrupt in Language-based Multi-agent Communication.pdf",
+      "bytes": 1048647,
+      "sha256": "dc90b2cd858bedce61b7ba86ff18411c8c33adbb6f790813c69289ff862e9856"
+    },
+    {
+      "path": "docs/source_material/papers/[COLM'26]【InfoAsymmetry】信息不对称协作 - Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry.pdf",
+      "bytes": 1436463,
+      "sha256": "297669c6106643cea86da471f2083d023bf7f2d5dfa1a117461806501e15e173"
+    },
+    {
+      "path": "docs/source_material/papers/[COLM'26]【User-Sim Index】用户仿真迁移 - Mind the Sim2Real Gap in User Simulation for Agentic Tasks.pdf",
+      "bytes": 722371,
+      "sha256": "5aa252346e70d75c6d7811f967cdb60d15540f25aba4bee81895194196162a09"
+    },
+    {
+      "path": "docs/source_material/papers/[CVPR'18]【VirtualHome】家务动作程序 - VirtualHome- Simulating Household Activities via Programs.pdf",
+      "bytes": 1114306,
+      "sha256": "2c984d4f703f8c3453cab8b9c6aa1f9bac36010bc5e4d1495f3d619a518ece11"
+    },
+    {
+      "path": "docs/source_material/papers/[CVPR'20]【ALFRED】具身指令家务 - ALFRED- A Benchmark for Interpreting Grounded Instructions for Everyday Tasks.pdf",
+      "bytes": 2876313,
+      "sha256": "960c201838badd356192c831a4e984fbe0895abf713debd30a63fb5590c1e259"
+    },
+    {
+      "path": "docs/source_material/papers/[CVPR'22]【Ego4D】全球自我中心视频 - Ego4D- Around the World in 3,000 Hours of Egocentric Video.pdf",
+      "bytes": 2607344,
+      "sha256": "e5b723a0531314b530e0275ec6a92e0379e32410631ec888f3fc76da4f5b8666"
+    },
+    {
+      "path": "docs/source_material/papers/[CVPR'24]【PhyScene】物理可交互场景 - PhyScene- Physically Interactable 3D Scene Synthesis for Embodied AI.pdf",
+      "bytes": 10010803,
+      "sha256": "ed1228eeb26684af843ca529068f44e470be3c71087280e97221b424d55b3f39"
+    },
+    {
+      "path": "docs/source_material/papers/[CVPR'25]【EgoLife】日常生活视频 - EgoLife- Towards Egocentric Life Assistant.pdf",
+      "bytes": 4077494,
+      "sha256": "dfd66ccad9e429bcb24a0ecc3a146fc5ea28988ccbf5592d2b461af49fd42bd3"
+    },
+    {
+      "path": "docs/source_material/papers/[CVPR'26]【SAGE- Agentic 3D Scene Gener】代理场景生成 - SAGE- Scalable Agentic 3D Scene Generation for Embodied AI.pdf",
+      "bytes": 2659364,
+      "sha256": "25a5ee458f5b5310dad607a008ba3a8baeb0fea51631dde858b70d03ce024bc0"
+    },
+    {
+      "path": "docs/source_material/papers/[CoRL'22]【BEHAVIOR-1K】千种家务任务 - BEHAVIOR-1K- A Benchmark for Embodied AI with 1,000 Everyday Activities and Realistic Simulation.pdf",
+      "bytes": 4040611,
+      "sha256": "ef00521d9355d9ca938cda193551ba357086e4f753270f50668b2050125e5069"
+    },
+    {
+      "path": "docs/source_material/papers/[ECCV'16]【Charades】众包室内活动 - Hollywood in Homes- Crowdsourcing Data Collection for Activity Understanding.pdf",
+      "bytes": 4798587,
+      "sha256": "cddccfb29752044968faa389e03fdbba1f5232a5b9f5653ee43b8cfa60563399"
+    },
+    {
+      "path": "docs/source_material/papers/[EMNLP Demo'23]【Humanoid Agents】需求情绪关系 - Humanoid Agents- Platform for Simulating Human-like Generative Agents.pdf",
+      "bytes": 1502724,
+      "sha256": "426b12fb12b9285f7bbb84c33c43bb7c9fe5ddb4d5ae563b170c444236c4e325"
+    },
+    {
+      "path": "docs/source_material/papers/[EMNLP Findings'23]【Situated Theory of Mind】情境心智理论 - Towards A Holistic Landscape of Situated Theory of Mind in Large Language Models.pdf",
+      "bytes": 975839,
+      "sha256": "eb4483247ce0823c62a3ada7b7fc55759f23b993166524e558fbc41af25c6f28"
+    },
+    {
+      "path": "docs/source_material/papers/[EMNLP Findings'24]【Shall We Team Up】竞争中自发合作 - Shall We Team Up- Exploring Spontaneous Cooperation of Competing LLM Agents.pdf",
+      "bytes": 3670297,
+      "sha256": "b556deb14c0f2f3908fd5007b50babcc28bbec1083da1af8b4ebd1fa392ad627"
+    },
+    {
+      "path": "docs/source_material/papers/[EMNLP Findings'25]【INDOORWORLD】异构室内协作 - INDOORWORLD - Integrating Physical Task Solving and Social Simulation in A Heterogeneous Multi-Agent Environment.pdf",
+      "bytes": 9264329,
+      "sha256": "32f7529cbf6e3bd36562f8936aa0f4a457b37b7385efe8bc900c26c4d81fb4b9"
+    },
+    {
+      "path": "docs/source_material/papers/[EMNLP Findings'25]【Time to Talk】黑手党异步群聊 - Time to Talk- LLM Agents for Asynchronous Group Communication in Mafia Games.pdf",
+      "bytes": 808294,
+      "sha256": "ffb7812143851f05bcf9cdede5438cf36da477d975b9b8775bab4b7063f2f2bd"
+    },
+    {
+      "path": "docs/source_material/papers/[EMNLP'23]【SALAM】纠错学习助教 - Learning from Mistakes via Cooperative Study Assistant for Large Language Models.pdf",
+      "bytes": 824042,
+      "sha256": "6ba1d696817898a3bae8f687278f624c32cf9bbd61a0397780ed88cb65df7fea"
+    },
+    {
+      "path": "docs/source_material/papers/[EMNLP'24]【PerSE】个性化文本评价 - Learning Personalized Alignment for Evaluating Open-ended Text Generation.pdf",
+      "bytes": 879487,
+      "sha256": "9faf127a2628bc82a5aa22c40143ddf2fdf299b0d52b14dcffb72294c78c398e"
+    },
+    {
+      "path": "docs/source_material/papers/[EMNLP'25]【Collab-Overcooked】双人烹饪 - Collab-Overcooked- Benchmarking and Evaluating Large Language Models as Collaborative Agents.pdf",
+      "bytes": 6103805,
+      "sha256": "757bb679e728dbc84bdbe81dfaca790ce63e5b53547165e094a39e17fe57d501"
+    },
+    {
+      "path": "docs/source_material/papers/[EMNLP'26]【CMU Behavioral Fidelity】办公室轨迹 - Measuring the Behavioral Fidelity of Long-Horizon Human Activity Simulations.pdf",
+      "bytes": 2276503,
+      "sha256": "6eb66a483f5bd5393a7d52bbda14a89d3cdf5fd9fa1f80cd72797ebb28ebd93f"
+    },
+    {
+      "path": "docs/source_material/papers/[EMNLP'26]【Multi-Faceted Interactivity 】全双工交互对齐 - Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models.pdf",
+      "bytes": 1282234,
+      "sha256": "e72333dd8c22b719a80340837257ace8b26663a6759604a8b185422e839fb636"
+    },
+    {
+      "path": "docs/source_material/papers/[HRI'24]【Toward Family-Robot Interactions】家庭中心HRI - Toward Family-Robot Interactions- A Family-Centered Framework in HRI.pdf",
+      "bytes": 930830,
+      "sha256": "e0199497c8b0c1e13ca220d3902bb17ddd0a8636b152bbe41b7c862bb34d26d8"
+    },
+    {
+      "path": "docs/source_material/papers/[ICCV'19]【Toyota Smarthome】真实居家视频 - Toyota Smarthome- Real-World Activities of Daily Living.pdf",
+      "bytes": 1043684,
+      "sha256": "e7c7d7647dbc0a3bc0ade12c58abaa7fd3fc7d6c51659ff284e0bcc2eb3ce62d"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'21]【ALFRED】文本具身对齐 - ALFWorld- Aligning Text and Embodied Environments for Interactive Learning.pdf",
+      "bytes": 1783014,
+      "sha256": "4be2e61e875ca34f19befa92e8a117347fc380a2076d6e829e22e2a4c03dc9e1"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'21]【Watch-And-Help】观察示范再协作 - Watch-And-Help- A Challenge for Social Perception and Human-AI Collaboration.pdf",
+      "bytes": 7273578,
+      "sha256": "35fd46183bb785e6f8eb0303083ca59036322f09fc4b20bea243bfc52d84486f"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'24]【Habitat 3.0】人机共居 - Habitat 3.0- A Co-Habitat for Humans, Avatars, and Robots.pdf",
+      "bytes": 8674247,
+      "sha256": "ff5547e13da271ba905cb0548208f7dfde5345af7bc4625a0a498cd3abedad8e"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'24]【SOTOPIA】社会目标对话 - SOTOPIA- Interactive Evaluation for Social Intelligence in Language Agents.pdf",
+      "bytes": 8846212,
+      "sha256": "3aa871e60bc1514fd5ed7e8ceeb08060a2ee56c8ad62acf67ea109e7bd1ac84e"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'24]【TDW-MAT】具身合作搬运 - Building Cooperative Embodied Agents Modularly with Large Language Models.pdf",
+      "bytes": 16947808,
+      "sha256": "5b221781c150f465906d6b477d7f6af7b6edf136ad6499d30a3ab36501ea37ab"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'25]【D2A】多维需求驱动日常活动 - Simulating Human-like Daily Activities with Desire-driven Autonomy.pdf",
+      "bytes": 2889773,
+      "sha256": "4efff06d331a0a2c3108db4cebcc62d8b56c5ad5922c597c1f2af3a20ef7da40"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'25]【MM-Ego- Egocentric Multimoda】第一视角问答 - MMEgo- Towards Building Egocentric Multimodal LLMs for Video QA.pdf",
+      "bytes": 25996680,
+      "sha256": "ffb78692243767191709e738dcc155ac369ec6143eb82ca0bd690bfbc2e09efa"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'25]【Robotouille】异步厨房规划 - Robotouille- An Asynchronous Planning Benchmark for LLM Agents.pdf",
+      "bytes": 29222883,
+      "sha256": "8373c9ada0d6d4f4b46283ff1270d9627159e3d8eb87d8fcc8e28a34b9e91c06"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'25]【TypedThinker】类型化思维 - TypedThinker- Diversify Large Language Model Reasoning with Typed Thinking.pdf",
+      "bytes": 928730,
+      "sha256": "9954c1dac9d0a7b4e6457a2305161f04bbe1a60a2106b307a920f5867aa04df7"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'26]【ELLSA】听看说行动 - End-to-end Listen, Look, Speak and Act.pdf",
+      "bytes": 1514334,
+      "sha256": "e43aad3f2072d7842072bf49e26076b0836dfd3001a63b834e49f580e962ae7e"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'26]【SimBench】人类行为评测 - SimBench- Benchmarking the Ability of Large Language Models to Simulate Human Behaviors.pdf",
+      "bytes": 1242947,
+      "sha256": "0c19ea80932b33b4825f8043414e7f158b7b55b66c6c04b14e5a10fe24e219dc"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'26]【TreeDebater】树搜索辩论 - Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters.pdf",
+      "bytes": 2750259,
+      "sha256": "dc8908b86f85b12ab8690c17e7b50bcc8cb9ae44f15c84c558ea015cec239e0e"
+    },
+    {
+      "path": "docs/source_material/papers/[ICLR'26]【Virtual Community】开放社区 - Virtual Community- An Open World for Humans, Robots, and Society.pdf",
+      "bytes": 18264444,
+      "sha256": "31e56d297d3f033859a851feb92a4f04b2bcc8415ce398e3190b78121bc8fa2d"
+    },
+    {
+      "path": "docs/source_material/papers/[ICML'23]【Go Beyond Imagination】世界模型探索 - Go Beyond Imagination- Maximizing Episodic Reachability with World Models.pdf",
+      "bytes": 5468838,
+      "sha256": "335fed887a4f9ce37281479c2b7e528f43f41837a5447a9d350bf4e8b686e5ce"
+    },
+    {
+      "path": "docs/source_material/papers/[ICML'26]【SocialSim Boundary】社会模拟边界 - Position- LLM-Based Social Simulations Require a Boundary.pdf",
+      "bytes": 419667,
+      "sha256": "b2e0072ae00f12ac9a9be8c6058eb63790b6837753e05d029f67ec46caf53a25"
+    },
+    {
+      "path": "docs/source_material/papers/[ICRA'24]【Think Act and Ask】个性化机器人导航 - Think, Act, and Ask- Open-World Interactive Personalized Robot Navigation.pdf",
+      "bytes": 908141,
+      "sha256": "81bee8a71735ac4be7873a40e0926e2449b654199d6d273b4e5f49fdb7199f73"
+    },
+    {
+      "path": "docs/source_material/papers/[IDC'23]【Family Theories】儿童家庭系统 - Family Theories in Child-Robot Interactions- Understanding Families as a Whole for Child-Robot Interaction Design.pdf",
+      "bytes": 748217,
+      "sha256": "86ea5b9e126fa3f452799f2d2844113a7f6c15d327de26377ad071208f013d56"
+    },
+    {
+      "path": "docs/source_material/papers/[IDC'26]【Family-School】家庭学校联动 - Supporting Family-School Partnerships with Robot-Facilitated Home-Based Activities.pdf",
+      "bytes": 4331162,
+      "sha256": "98e5e85b9af3653b9dbfa8b13d3f7b49b75c096141072cc06d1b5b4195ca23e3"
+    },
+    {
+      "path": "docs/source_material/papers/[IDC'26]【Parent-Child】亲子机器人通信 - Designing Robots to Support Parent-Child Connections- Opportunities Through Robot-Mediated Communication.pdf",
+      "bytes": 1610075,
+      "sha256": "f0d5d3370220e69dd7fdf96a28b673bdb9a97626cdfeba3d4b6475c767b7458f"
+    },
+    {
+      "path": "docs/source_material/papers/[IE'26]【MuRAL】多住户语言标注 - MuRAL- A Multi-Resident Ambient Sensor Dataset Annotated with Natural Language for Activities of Daily Living.pdf",
+      "bytes": 1851346,
+      "sha256": "36d499edaf4a1f93905e29a948751ee9461f26e5fdd1b005805bc1b2eccd0aef"
+    },
+    {
+      "path": "docs/source_material/papers/[IEEE Computer'13]【CASAS multi-resident】盒装智能家居 - CASAS- A Smart Home in a Box.pdf",
+      "bytes": 685251,
+      "sha256": "f0bbcc4fe568b85175b1d711b522db343045fbf173391cca703e243d89cbcdeb"
+    },
+    {
+      "path": "docs/source_material/papers/[IJCV'22]【EPIC-KITCHENS-100】第一视角厨房 - Rescaling Egocentric Vision- Collection, Pipeline and Challenges for EPIC-KITCHENS-100.pdf",
+      "bytes": 5011614,
+      "sha256": "7fd886aedaf54d3207e77de2d423bc524c0f7f83dfec3606d4aae32756bb178f"
+    },
+    {
+      "path": "docs/source_material/papers/[Interspeech'18]【CHiME-5】家庭聚餐语音 - The Fifth 'CHiME' Speech Separation and Recognition Challenge- Dataset, Task and Baselines.pdf",
+      "bytes": 178445,
+      "sha256": "51f6e8d2067d41a460fb727e328b1144c6a366f99327288129196e5920974434"
+    },
+    {
+      "path": "docs/source_material/papers/[JAIHC'10]【CASAS Kyoto Multi-resident】多住户独立联合活动 - Recognizing independent and joint activities among multiple residents in smart environments.pdf",
+      "bytes": 703413,
+      "sha256": "831a669c0c30c47772938b78eeef1c0853057214fbaedcc997b2338c34c53684"
+    },
+    {
+      "path": "docs/source_material/papers/[MLMI'05]【AMI Meeting Corpus】多模态会议 - The AMI Meeting Corpus- A Pre-announcement.pdf",
+      "bytes": 346501,
+      "sha256": "d6f8d0c64ece3a69f0496dd9c006842aa2bd0cbe7450c0173325b48141ab6e59"
+    },
+    {
+      "path": "docs/source_material/papers/[MLSys'25]【AI Metropolis】乱序模拟执行 - AI Metropolis- Scaling Large Language Model-based Multi-Agent Simulation with Out-of-order Execution.pdf",
+      "bytes": 1759485,
+      "sha256": "faeabf5b666af731c258ba4a71c9e78a4c9d625e854182a648ac80639e863ec5"
+    },
+    {
+      "path": "docs/source_material/papers/[NAACL Findings'24]【MindAgent】多代理游戏厨房 - MindAgent- Emergent Gaming Interaction.pdf",
+      "bytes": 24818667,
+      "sha256": "33b6a5f62471dff1a496cead1bc4418c20b765ee8865fa59c3dfbbea8d92afdd"
+    },
+    {
+      "path": "docs/source_material/papers/[NAACL'25]【OSCA】推理采样分配 - Scaling LLM Inference Efficiently with Optimized Sample Compute Allocation.pdf",
+      "bytes": 869669,
+      "sha256": "80b3d843baf3f4484f50b1f3d4a088b664ba4b48a0ab3051a4189d0efb97f480"
+    },
+    {
+      "path": "docs/source_material/papers/[NeurIPS'26]【MultiTalk】多人双语语音 - MultiTalk- Scaling Full-Duplex Speech Models to Long, Multi-Party, Bilingual Conversation.pdf",
+      "bytes": 2491069,
+      "sha256": "c32969dca813872821863f6a791925cd36bb2c939bf79760181af29492f235e2"
+    },
+    {
+      "path": "docs/source_material/papers/[Pervasive'04]【MIT Tapia Home Activity Sensors】简单家居传感器 - Activity Recognition in the Home Using Simple and Ubiquitous Sensors.pdf",
+      "bytes": 675000,
+      "sha256": "b880fc213750b61714f48f5b095762a3b348944b727577e5990f0e7b51731de3"
+    },
+    {
+      "path": "docs/source_material/papers/[PervasiveHealth'13]【ARAS】双住户传感器 - ARAS Human Activity Datasets In Multiple Homes with Multiple Residents.pdf",
+      "bytes": 1115292,
+      "sha256": "b17039c80bbb1fe8779f239ea91ceda8d2a27b418b06325f16e964c04a4ec976"
+    },
+    {
+      "path": "docs/source_material/papers/[Position'26]【The Second Loop】持续机器发展 - The Second Loop- Worlds for Continual Machine Development.pdf",
+      "bytes": 1002272,
+      "sha256": "d92d504c1e223e7c1d0d850ca86a2065a851296965fb69295e5c0f66a470a082"
+    },
+    {
+      "path": "docs/source_material/papers/[SICon'25]【Text Overlap (published version)】人类式文字重叠 - Text Overlap- An LLM with Human-like Conversational Behaviors.pdf",
+      "bytes": 206812,
+      "sha256": "40770e34be9ad592f34ac3c1f2f167f174343e98782d745670375811922f2c61"
+    },
+    {
+      "path": "docs/source_material/papers/[Scientific Data'26]【DynamicTHOR】日程驱动物体迁移 - DynamicTHOR- A Scalable Dataset of Human-Centric Dynamic Scenes for Embodied AI.pdf",
+      "bytes": 1485687,
+      "sha256": "4383702007c39b39a76e1654b467ce1506b2ac6682c2dcd13358bb6084c466ff"
+    },
+    {
+      "path": "docs/source_material/papers/[Semin Speech Lang'16]【HomeBank】儿童全天录音 - HomeBank- An Online Repository of Daylong Child-Centered Audio Recordings.pdf",
+      "bytes": 114123,
+      "sha256": "d6eddc4cea88320181d094fdbd6d3b5f90da982b42aa48571d6a87646f1d42a1"
+    },
+    {
+      "path": "docs/source_material/papers/[UIST'22]【Social Simulacra】社群原型 - Social Simulacra- Creating Populated Prototypes for Social Computing Systems.pdf",
+      "bytes": 3145870,
+      "sha256": "4f043b3fe3a2933876b928a4e228b0aae9be6137dd945e3cb8155bbabb394f60"
+    },
+    {
+      "path": "docs/source_material/papers/[UIST'23]【Generative Agents】小镇记忆反思 - Generative Agents- Interactive Simulacra of Human Behavior.pdf",
+      "bytes": 11693164,
+      "sha256": "37b0f8eb01b0f1d7cef7e6cdcb2661e9b37a85925bf83cdc7f5b550cb5827d3c"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'18]【SPHERE】家庭多模态数据 - A Guide to the SPHERE 100 Homes Study Dataset.pdf",
+      "bytes": 4043956,
+      "sha256": "edaf0034b8500828bf20530b1643147190ade847375978251f7fb5e8f2abbb2d"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'23]【Concordia】游戏主持人 - Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia.pdf",
+      "bytes": 997268,
+      "sha256": "ac0a23ef187ebef1820b8aebc19d2610035b1f234527b9f854151cb77ad966fb"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'23]【Smart Agent-Based Modeling】智能主体建模 - Smart Agent-Based Modeling- On the Use of Large Language Models in Computer Simulations.pdf",
+      "bytes": 6398029,
+      "sha256": "b9d10f063172d498c58fa2a8bf8a59a61459b01d77ba80aa713fabd2baf3e188"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'24]【1000 People】千人访谈代理 - LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals.pdf",
+      "bytes": 3563209,
+      "sha256": "1ee1f32c2ba92eae7a91f28d204b9041a0f1cfb9ffc7201b3c52ac464f4e1fe2"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'24]【CoPlanner】合作战略规划 - Cooperative Strategic Planning Enhances Reasoning Capabilities in Large Language Models.pdf",
+      "bytes": 596279,
+      "sha256": "de351e8dd00635ee3ad727c4fd8572a5a97c5166800f43443a001353beb0ac22"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'24]【Moshi】实时语音对话 - Moshi- a speech-text foundation model for real-time dialogue.pdf",
+      "bytes": 4770870,
+      "sha256": "ea702589e103f8d02b4fbec733c556b08d136c2ccaa013eb48a91a7366c7e390"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'25]【AgentSociety】城市社会干预 - AgentSociety- Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society.pdf",
+      "bytes": 36228564,
+      "sha256": "82513420e1c66acf509141fe78597780ac0b1d862057a8e6c6c4db9ca1923b95"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'26]【Agentopia】长期生活学习 - Agentopia- Long-Term Life Simulation and Learning in Agent Societies.pdf",
+      "bytes": 26286944,
+      "sha256": "0356809ce523b79f3bb0c9478fddab9a6e59e35389886154a3f716ef27190173"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'26]【CRAB-Bench】依赖任务用户模拟 - CRAB-Bench- Evaluating LLM Agents under Complex Task Dependencies and Human-aligned User Simulation.pdf",
+      "bytes": 3325842,
+      "sha256": "bca62741f16a5cd5f0c58fc48a44c5780e36ed5572e721d8ce153b58cb548f18"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'26]【Duplex-MPE】多人全双工评测 - Duplex-MPE- Benchmarking Multi-Party Interaction in Full-Duplex Dialogue.pdf",
+      "bytes": 4344665,
+      "sha256": "125f7c66e2d7b1c6d7e60051abb4028ce5535cc03362d53c4f263c49c7ca265d"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'26]【OmniBehavior】快手数字轨迹 - Towards Real-world Human Behavior Simulation- Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces.pdf",
+      "bytes": 4232103,
+      "sha256": "032b163e0b0f8ec8e48bc0fa8b87aedd05e914c65c836a3e3f2cf2a9fd6c6775"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'26]【S2-MAS】五亿家庭画像 - S$^2$-MAS- A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents.pdf",
+      "bytes": 3188744,
+      "sha256": "6f3e29d983370ef8bedc92ec8946f9de693a48da3b09b13408458634a0a2ef4a"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'26]【SceneFoundry】无限交互场景 - SceneFoundry- Generating Interactive Infinite 3D Worlds.pdf",
+      "bytes": 5690217,
+      "sha256": "dd72bbdbaece80a845c5e9b44404f7dde5c04184aabeadbea30b78947ac96be7"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'26]【SceneMosaic】场景布局演化 - SceneMosaic- Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution.pdf",
+      "bytes": 6088377,
+      "sha256": "19999e37916ad63be4908c0d9553a4afb11951fc98e31ffce6bbb998fb5499ac"
+    },
+    {
+      "path": "docs/source_material/papers/[arXiv'26]【Speculative Agents】异步推测调用 - Speculative Interaction Agents- Building Real-Time Agents with Asynchronous I-O and Speculative Tool Calling.pdf",
+      "bytes": 995922,
+      "sha256": "4eb4630e4ebf44d95c238405fc624755524b9cac3a5b2e0eee8d9d2ec91752d9"
+    },
+    {
+      "path": "docs/source_material/web/[Blog'25]【AutoGen v0.4】事件驱动运行时 - AutoGen v0.4- Reimagining the Foundation of Agentic AI for Scale, Extensibility, and Robustness.html",
+      "bytes": 12510,
+      "sha256": "960b6a596e20b8517092cd4a8eed9a4fb40993a44df52460f0a2520fc92707da"
+    },
+    {
+      "path": "docs/source_material/web/[COLM'25]【BASIS】情境视觉助手 - Bootstrapping Visual Assistant Modeling with Situated Interaction Simulation.html",
+      "bytes": 3318,
+      "sha256": "d0e1f15d9737648d902645208dc237e0e82f9dd779eddb73f7a8a982d427038f"
+    },
+    {
+      "path": "docs/source_material/web/[Data'17]【UKTUS 2014–15】英国时间日记 - United Kingdom Time Use Survey, 2014-2015.html",
+      "bytes": 2455,
+      "sha256": "075549bb135802d0524fb165fcb5ed9b43eb55132cc9f44fcd8b92270e211b1b"
+    },
+    {
+      "path": "docs/source_material/web/[Data'26]【ATUS】美国时间日记 - American Time Use Survey.html",
+      "bytes": 11547,
+      "sha256": "6528f3c700ae5f80303b86fcb8d3dc5a01a9eb92935c95e1d2cac88695c0407f"
+    },
+    {
+      "path": "docs/source_material/web/[Docs'26]【LangGraph】中断与人工介入 - LangGraph- Interrupts and Human-in-the-Loop.html",
+      "bytes": 42354,
+      "sha256": "909672e6785194122ee228a5f1c6a18f08b47998ede2c04d263a7b933899feb6"
+    },
+    {
+      "path": "docs/source_material/web/[Docs'26]【Microsoft Agent Framework】代理软件框架 - Microsoft Agent Framework.html",
+      "bytes": 12577,
+      "sha256": "824f02c5d0b762ff61090f80e9462d213a7903fcc05c454b8ece1ccff2c7c413"
+    },
+    {
+      "path": "docs/source_material/web/[Docs'26]【SimPy】离散事件调度 - SimPy- Discrete Event Simulation for Python.html",
+      "bytes": 3260,
+      "sha256": "40ffb656f2c3a58e478f7f6f418ac443463dfdd6896e51e3fc80e97ea091aee4"
+    },
+    {
+      "path": "docs/source_material/web/[Position'26]【The Second Loop】持续机器发展 - The Second Loop- Worlds for Continual Machine Development.html",
+      "bytes": 25385,
+      "sha256": "76bb3ace7aee9398e18e22ccbbc86244fcec9129e61610b36a4460d92274183f"
+    },
+    {
+      "path": "docs/source_material/web/[Project'26]【EgoMemory- Week-long Egocent】长视频记忆 - EgoMemory- A Comprehensive Memory Benchmark for Long-Horizon Egocentric Video Understanding.html",
+      "bytes": 11332,
+      "sha256": "d4ab3f4880d2589be57fde0fb8a3339c2ff5f42ee8d5b466449998c900705e87"
+    },
+    {
+      "path": "docs/source_material/web/[UbiComp'08]【van Kasteren Smart Home】居家活动传感 - Accurate Activity Recognition in a Home Setting.html",
+      "bytes": 2310,
+      "sha256": "5618535a3bb636ec47ba9c65dad84426cd89c6ad52a1e6581a6ce5db2ed8580c"
+    },
+    {
+      "path": "index.html",
+      "bytes": 403,
+      "sha256": "6ed173a901b5f3cf64f9785ad9c29db616827c432a2477a0e2f7cdb35044cd1e"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 49008,
+      "sha256": "d4519fdbeb47e6cff69686c27a63d7100ad951e3ea16a8c6f37ba352c47cd89b"
+    }
+  ]
+}

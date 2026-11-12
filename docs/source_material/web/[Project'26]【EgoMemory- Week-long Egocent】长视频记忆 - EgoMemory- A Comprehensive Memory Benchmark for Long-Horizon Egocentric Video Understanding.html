@@ -1,0 +1,325 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>EgoMemory: A Comprehensive Memory Benchmark for Long-Horizon Egocentric Video Understanding</title><style>body{max-width:900px;margin:40px auto;padding:0 24px;font:16px/1.65 system-ui;color:#17202b}pre{white-space:pre-wrap;overflow-wrap:anywhere}aside{padding:18px;background:#eef4f8;border-radius:12px}a{color:#1665a8}</style><h1>EgoMemory: A Comprehensive Memory Benchmark for Long-Horizon Egocentric Video Understanding</h1><aside><b>Official project/abstract evidence. Paper PDF was not obtained.</b><br>Source: <a href="https://egomemory.github.io/">https://egomemory.github.io/</a><br>Retrieved: 2026-10-25<br>Readable text archive extracted from the retrieved official HTML; scripts and remote assets are omitted.</aside><pre>EgoMemory: A Comprehensive Memory Benchmark for Long-Horizon Egocentric Video Understanding
+EgoMemory:
+A Comprehensive Memory Benchmark
+for Long-Horizon Egocentric Video Understanding
+Ziyang Wang
+1*
+,
+Yue Zhang
+1*
+,
+Shoubin Yu
+1
+,
+Ce Zhang
+1
+,
+Zengqi Zhao
+1
+,
+Jaehong Yoon
+2
+,
+Hyunji Lee
+1
+,
+Gedas Bertasius
+1
+,
+Mohit Bansal
+1
+1
+UNC Chapel Hill
+2
+NTU Singapore
+*
+Equal contribution
+Paper
+Code
+Benchmark
+Figure 1: Illustration of EgoMemory for week-long egocentric video memory.
+Given a query at a specific time, answering requires retrieving and aggregating evidence from
+                multiple temporally distant observations across days. We categorize memory into three types:
+entity memory
+(tracking persistent objects and states),
+event memory
+(ordering and linking events), and
+behavior memory
+(inferring patterns).
+Abstract
+Next-generation visual assistants such as smart glasses, embodied agents, and always-on
+            life-logging systems must reason over an entire day or more of continuous visual experience.
+            In such ultra-long video settings, relevant information is sparsely distributed across hours or days,
+            making
+memory a fundamental challenge
+: models must accumulate information over time,
+            recall previously observed states, track temporal order, and abstract recurring patterns from past experience.
+            However, existing week-long video benchmarks are still primarily designed for perception and recognition,
+            such as locating a specific moment or summarizing global content, rather than reasoning that
+            requires accumulating and integrating evidence across multiple days.
+            To address this gap, we introduce
+EgoMemory
+, a comprehensive benchmark that systematically
+            evaluates week-long egocentric video understanding through the lens of memory. EgoMemory evaluates three
+            complementary memory types:
+entity memory
+, tracking how object states evolve and change across days;
+event memory
+, recalling and ordering activities separated by hours or days; and
+behavior memory
+, abstracting recurring patterns from sparse, repeated observations over the whole week period.
+            EgoMemory comprises
+500 questions
+across three memory types and six core challenges,
+            with an average of 5.1 video segments of evidence per question and 25.9 hours of memory backtracking.
+            We evaluate EgoMemory on
+17 methods
+across MLLMs and agentic frameworks, revealing that even the best
+            model achieves only
+40.2% overall accuracy
+. Further analysis shows that the three memory types
+            fail for distinct reasons and that performance degrades as evidence spans longer temporal horizons,
+            revealing that long-horizon memory remains far from solved. We believe EgoMemory establishes a strong
+            foundation for evaluating and advancing long-context, memory-aware multimodal systems.
+Long-Horizon by Design
+EgoMemory pushes both
+temporal certification
+(the time span one must search to locate all
+            ground-truth evidence) and
+evidence per question
+well beyond prior week-long egocentric benchmarks.
+Benchmark
+Evidence/Q
+Temporal Cert. (h)
+Memory Types
+TeleEgo
+~1
+~5
+Single-moment
+EgoLifeQA
+~1
+~7
+Short-interval
+MMLifelong-test
+~2
+~8
+Retrieval-centric
+EgoMem
+~2.5
+~7
+Single-event
+MA-EgoQA
+~3
+~12
+Cross-event
+EgoMemory (Ours)
+5.1
+25.9
+Entity / Event / Behavior
+Figure 2:
+Comparison with existing week-long video benchmarks. The x-axis shows the average number of distinct
+            video segments needed to answer a question (evidence), and the y-axis shows temporal certification in hours
+            (the total video duration one must search to locate all ground-truth evidence). Bubble size is proportional
+            to the number of questions. EgoMemory exceeds the strongest prior benchmark by
+2× in evidence count
+and
+2× in temporal certification
+.
+Three Memory Types · Six Core Challenges
+We decompose week-long memory into three complementary types inspired by cognitive science,
+            each operationalized into two tasks targeting distinct reasoning demands.
+Entity Memory
+Track how objects evolve
+Re-identify entities across days as they appear, disappear, and resurface under different
+                lighting, viewpoints, or locations.
+Cumulative State Tracking
+Track how an entity&#x27;s location or condition changes across observations separated by hours or days.
+Temporal Counting
+Count distinct instances of a category up to a query time, distinguishing repeated occurrences from new ones.
+Event Memory
+Order and link events
+Retrieve, temporally organize, and relate discrete events from a rich stream of activities
+                that unfold across hours or days.
+Event Ordering
+Arrange events drawn from different days into the correct temporal order across large temporal gaps.
+Event Linking
+Identify the event matching a set of contextual constraints (location, activity, time-of-day).
+Behavior Memory
+Abstract repeated patterns
+Distill higher-level priors from repeated observations — patterns that no single observation can reveal.
+Spatial Preference Inference
+Infer recurring spatial habits (e.g., where a person typically performs a given activity).
+Activity Pattern Inference
+Predict likely next states based on learned routines (e.g., where the person goes after lunch).
+Figure 3: Overview of the six core challenges across three memory types in EgoMemory.
+Within each example, the week-long timeline shows evidence frames sampled at different timestamps
+                (e.g., D1, D2 denote days, and Q-D5 indicates the query timestamp on Day 5, highlighted by a dashed box).
+                Green frames indicate relevant evidence and red frames indicate distracting observations.
+Benchmark Construction
+EgoMemory is built on the EgoLife dataset through a four-stage pipeline that ensures every question is
+temporally grounded
+,
+visually verified
+, and
+genuinely challenging
+.
+            Only 15% of initial candidates survive the combined filtering and human verification stages.
+Stage 1
+Evidence Preparation
+Convert week-long video into structured evidence: clip-level object-centric captions plus
+                hierarchical event summaries at three temporal granularities.
+Stage 2
+Memory-Centric QA Generation
+Task-specific generators for entity / event / behavior produce candidate multiple-choice
+                questions, each constrained to a designated query timestamp.
+Stage 3
+Automatic Filtering
+Blind LLM tests reject text-leakage; we enforce visual grounding and a minimum 2-hour temporal
+                gap across supporting evidence.
+Stage 4
+Human Verification
+Six annotators review each surviving question (~20 min each), validating answers and
+                iteratively refining distractors and visual grounding.
+Figure 4:
+Overview of the 4-stage benchmark construction pipeline.
+Dataset Composition
+500
+multiple-choice questions
+200
+Entity ·
+200
+Event ·
+100
+Behavior
+6
+core capabilities, all human-verified
+Avg.
+5.1
+evidence segments ·
+25.9 h
+backtracking
+Results
+We evaluate
+17 systems
+spanning general-purpose MLLMs, video-specific MLLMs, and agentic
+            video frameworks. The strongest model reaches only 40.2% overall — long-horizon memory is far from solved.
+17
+Methods
+Evaluated
+40.2%
+Best Overall
+(Gemini 3 Flash)
+50.0%
+Best Single Capability
+(Molmo2-8B Counting)
+25.9 h
+Avg. Memory
+Backtracking
+Table 1: Main benchmark results on EgoMemory.
+Accuracy (%) across three memory types and six
+                capability dimensions: Tracking (Cumulative State Tracking), Counting (Temporal Counting), Ordering
+                (Event Ordering), Linking (Event Linking), Spatial (Spatial Preference Inference), and Activity
+                (Activity Pattern Inference). The best result in each column is
+bolded
+and the second best is
+underlined
+.
+Analysis
+The three memory types fail for fundamentally different reasons, pointing to
+three orthogonal axes
+on which long-horizon video understanding must improve.
+Entity — Fine-Grained Visual Grounding
+Models bottlenecked by perceptual precision combined with long-context retention.
+                Text-centric models fall below 25% on Counting; pixel-grounded Molmo2-8B leads all 8B models.
+Event — Long-Range Temporal Coherence
+Even the strongest models stay below 40% on Ordering and 45% on Linking. Several video-specific
+                MLLMs are near random on Ordering — locating one event is solvable, relating many is not.
+Behavior — Aggregation over Sparse Evidence
+Best models stay at 50.0% (Spatial) and 46.0% (Activity). Strong global summarization does not
+                imply the ability to abstract recurring patterns across many sparsely distributed observations.
+Effect of Temporal Certification
+Overall accuracy decreases as the temporal span of required evidence grows — with sharply different
+            decay patterns across memory types.
+Cert. Length (h)
+&lt;8
+8–16
+16–32
+32+
+Total
+Entity
+28.5
+33.9
+32.1
+30.3
+31.5
+Event
+56.0
+31.1
+33.4
+23.8
+30.0
+Behavior
+–
+–
+43.7
+37.0
+41.0
+Overall
+40.3
+33.7
+35.5
+28.2
+32.8
+Table 2:
+Effect of temporal certification length on accuracy (%) across memory types.
+                Event memory shows the sharpest decline as the evidence span grows.
+Effect of Auxiliary Text
+Captions and transcripts affect each memory type differently — no
+                configuration improves overall performance.
+Trans.
+Caption
+Entity
+Event
+Behavior
+All
+✗
+✗
+31.5
+30.0
+41.0
+32.8
+✗
+✓
+29.0
+29.5
+46.0
+32.6
+✓
+✗
+29.5
+26.0
+45.0
+31.2
+✓
+✓
+31.5
+26.5
+45.0
+32.2
+Table 3:
+Effect of auxiliary text inputs (transcripts, captions) on accuracy (%).
+                Behavior is the only type that benefits; Event is consistently hurt by captions.
+Frame Input Scaling
+Performance does not improve monotonically with more frames — all memory types degrade at 2048 frames,
+            indicating that scaling frame count alone cannot resolve long-horizon memory.
+Figure 6:
+Effect of input frames. No single frame budget is optimal across memory types.
+Citation
+Copy
+@article{wang2026egomemory,
+  title={EgoMemory: A Comprehensive Memory Benchmark for Long-Horizon Egocentric Video Understanding},
+  author={Wang, Ziyang and Zhang, Yue and Yu, Shoubin and Zhang, Ce and Zhao, Zengqi and
+          Yoon, Jaehong and Lee, Hyunji and Bertasius, Gedas and Bansal, Mohit},
+  year={2026},
+  journal={arXiv preprint}
+}</pre></html>

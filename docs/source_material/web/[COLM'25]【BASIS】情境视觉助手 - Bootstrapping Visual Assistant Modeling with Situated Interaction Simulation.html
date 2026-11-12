@@ -1,0 +1,45 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>BASIS official project archive</title><style>body{max-width:900px;margin:40px auto;padding:0 24px;font:16px/1.65 system-ui}pre{white-space:pre-wrap;overflow-wrap:anywhere}aside{padding:18px;background:#eef4f8}</style><h1>BASIS official project archive</h1><aside>Paper PDF unavailable in this run; this is official project evidence.<br>Source: <a href="https://colm-basis.github.io/">BASIS project</a><br>Retrieved: 2026-10-25; readable text extracted from official HTML.</aside><pre>Bootstrapping Visual Assistant Development with Situated Interaction Simulation
+Bootstrapping Visual Assistant Development with Situated Interaction Simulation
+Yichi Zhang
+1
+, Run Peng
+1
+, Lingyun Wu
+1
+, Yinpei Dai
+1
+, Xuweiyi Chen
+2
+, Qiaozi Gao
+3
+, Joyce Chai
+1
+1
+University of Michigan,
+2
+University of Virginia,
+3
+Amazon
+{zhangyic, roihn, chaijy}@umich.edu
+A visual assistant (oracle, GPT4o) proactively helps the user complete tasks in a simulated environment.
+.
+Abstract
+Visual assistants that can guide humans through complex tasks in physical environments have significant potential, yet their development is hindered by the high cost of human-in-the-loop data collection. We present BASIS (Bootstrapping Assistant modeling with Situated Interaction Simulation), a novel framework that fundamentally rethinks how visual assistants are developed and evaluated. Rather than relying on expensive human data collection, BASIS leverages simulation to bootstrap capable assistants through three interconnected stages: (1) Situated Interaction Simulation generates high-quality synthetic data through interactions between oracle assistants and simulated users; (2) Autonomous Model Development trains and continuously evaluates assistant models using this synthetic data; and (3) Real-User Validation verifies effectiveness with human users. We implement BASIS in Alexa Arena and demonstrate that our best fine-tuned vision-language model trained solely from synthetic data achieves a 72.9% success rate with real humans, reaching 82.3\% of an oracle assistant&#x27;s success rate (88.6%) that can access privileged information. Through detailed error analysis, we identify object identification as the primary bottleneck for current visual assistants. Our approach successfully bridges the gap between simulation and reality, establishing a scalable pipeline for developing assistants that can effectively guide users through complex tasks.
+Model Assistant with Human User!
+Using
+ORACLE ASSISTANT with SIMULATED USER
+, you can train a reliable visual assistant!
+Everything Synthetic✅ Evaluation Automated✅
+Task: Change the fan&#x27;s color to blue.
+Task: Help grow the broken radio into a gigantic size.
+Oracle Assistant with Human User!
+Oracle assistant uses perfect perception with set-of-mark labels, while trained model uses raw observation. Acceptable performance gap!
+Error Analysis
+Performance gap does exist. What is behind the success rate? We manually annotated the assistant behaviors and compared frequent errors!
+One example of imperfect assistant😢
+This website is borrowed from
+Nerfies
+and licensed under a
+Creative
+            Commons Attribution-ShareAlike 4.0 International License
+.</pre></html>
