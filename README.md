@@ -17,3 +17,5 @@
 文献数据与页面源代码在独立FamilySim Related Work工作区维护。更新时先在该工作区运行 `make verify PYTHON=python`，再运行 `python scripts/export_static_library.py --output <temporary-site-directory>`，核对manifest后同步此仓库的网站文件。不要直接修改生成的HTML。
 
 该站点只发布文献页面与资源，不发布Luvworld模拟器源码、运行轨迹、凭证或内部审计附件。评分是针对家庭日内活动目标的综述判断，不是论文质量或已测性能。
+
+PDF阅读入口使用同站点的Mozilla PDF.js兼容阅读器，支持按需分段加载和翻页，不依赖浏览器PDF插件；同时保留下载原文和直接打开文件的入口。第三方版本与许可证见`vendor/pdfjs/LICENSE`。

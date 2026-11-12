@@ -2461,7 +2461,12 @@ apply();
      const local=document.createElement('a');local.className='sourceLink localSourceLink';
      const offline=window.location.protocol==='file:';
      local.textContent=e.localPdfPath?(code==='en'?(offline?'Open local PDF':'Read PDF'):(offline?'打开本地 PDF':'阅读 PDF')):(code==='en'?(offline?'Local webpage archive':'Archived webpage'):(offline?'本地网页归档':'网页归档'));
-     local.href='../'+localPath.split('/').map(encodeURIComponent).join('/');local.target='_blank';local.rel='noopener';foot.append(local);
+     const rawHref='../'+localPath.split('/').map(encodeURIComponent).join('/');
+     local.href=e.localPdfPath&&!offline?'../reader/index.html?id='+p.id+'&lang='+code:rawHref;
+     local.target='_blank';local.rel='noopener';foot.append(local);
+     if(e.localPdfPath&&!offline){
+       const download=document.createElement('a');download.className='sourceLink pdfDownloadLink';download.href=rawHref;download.download=localPath.split('/').pop();download.textContent=code==='en'?'Download PDF':'下载 PDF';foot.append(download);
+     }
    }
    section.append(heading,story,foot);
    const hero=root.querySelector('.dialogHero');if(hero)hero.insertAdjacentElement('afterend',section);else root.prepend(section);

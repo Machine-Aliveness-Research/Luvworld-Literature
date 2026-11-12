@@ -1,0 +1,714 @@
+[
+  {
+    "id": 1,
+    "title": "Measuring the Behavioral Fidelity of Long-Horizon Human Activity Simulations",
+    "name": "CMU Behavioral Fidelity",
+    "path": "docs/source_material/papers/[EMNLP'26]【CMU Behavioral Fidelity】办公室轨迹 - Measuring the Behavioral Fidelity of Long-Horizon Human Activity Simulations.pdf",
+    "sourceUrl": "https://aclanthology.org/2026.emnlp-main.625/",
+    "bytes": 2276503
+  },
+  {
+    "id": 2,
+    "title": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs",
+    "name": "AgentWorld",
+    "path": "docs/source_material/papers/[COLM'26]【AgentWorld】RPG因果协作 - AgentWorld- Benchmarking Long-Horizon Collaboration of Multi-agent LLMs.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2609.31590",
+    "bytes": 4581461
+  },
+  {
+    "id": 3,
+    "title": "Collab-Overcooked: Benchmarking and Evaluating Large Language Models as Collaborative Agents",
+    "name": "Collab-Overcooked",
+    "path": "docs/source_material/papers/[EMNLP'25]【Collab-Overcooked】双人烹饪 - Collab-Overcooked- Benchmarking and Evaluating Large Language Models as Collaborative Agents.pdf",
+    "sourceUrl": "https://aclanthology.org/2025.emnlp-main.249/",
+    "bytes": 6103805
+  },
+  {
+    "id": 4,
+    "title": "INDOORWORLD : Integrating Physical Task Solving and Social Simulation in A Heterogeneous Multi-Agent Environment",
+    "name": "INDOORWORLD",
+    "path": "docs/source_material/papers/[EMNLP Findings'25]【INDOORWORLD】异构室内协作 - INDOORWORLD - Integrating Physical Task Solving and Social Simulation in A Heterogeneous Multi-Agent Environment.pdf",
+    "sourceUrl": "https://aclanthology.org/2025.findings-emnlp.590/",
+    "bytes": 9264329
+  },
+  {
+    "id": 5,
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "name": "Generative Agents",
+    "path": "docs/source_material/papers/[UIST'23]【Generative Agents】小镇记忆反思 - Generative Agents- Interactive Simulacra of Human Behavior.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2304.03442",
+    "bytes": 11693164
+  },
+  {
+    "id": 6,
+    "title": "Humanoid Agents: Platform for Simulating Human-like Generative Agents",
+    "name": "Humanoid Agents",
+    "path": "docs/source_material/papers/[EMNLP Demo'23]【Humanoid Agents】需求情绪关系 - Humanoid Agents- Platform for Simulating Human-like Generative Agents.pdf",
+    "sourceUrl": "https://aclanthology.org/2023.emnlp-demo.15/",
+    "bytes": 1502724
+  },
+  {
+    "id": 7,
+    "title": "Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia",
+    "name": "Concordia",
+    "path": "docs/source_material/papers/[arXiv'23]【Concordia】游戏主持人 - Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2312.03664",
+    "bytes": 997268
+  },
+  {
+    "id": 8,
+    "title": "AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society",
+    "name": "AgentSociety",
+    "path": "docs/source_material/papers/[arXiv'25]【AgentSociety】城市社会干预 - AgentSociety- Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2502.08691",
+    "bytes": 36228564
+  },
+  {
+    "id": 9,
+    "title": "Agentopia: Long-Term Life Simulation and Learning in Agent Societies",
+    "name": "Agentopia",
+    "path": "docs/source_material/papers/[arXiv'26]【Agentopia】长期生活学习 - Agentopia- Long-Term Life Simulation and Learning in Agent Societies.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2606.07513",
+    "bytes": 26286944
+  },
+  {
+    "id": 10,
+    "title": "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents",
+    "name": "SOTOPIA",
+    "path": "docs/source_material/papers/[ICLR'24]【SOTOPIA】社会目标对话 - SOTOPIA- Interactive Evaluation for Social Intelligence in Language Agents.pdf",
+    "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/b3075b88e583a0e98d8b24338a613060-Abstract-Conference.html",
+    "bytes": 8846212
+  },
+  {
+    "id": 11,
+    "title": "Social Simulacra: Creating Populated Prototypes for Social Computing Systems",
+    "name": "Social Simulacra",
+    "path": "docs/source_material/papers/[UIST'22]【Social Simulacra】社群原型 - Social Simulacra- Creating Populated Prototypes for Social Computing Systems.pdf",
+    "sourceUrl": "https://research.google/pubs/social-simulacra-creating-populated-prototypes-for-social-computing-systems/",
+    "bytes": 3145870
+  },
+  {
+    "id": 12,
+    "title": "VirtualHome: Simulating Household Activities via Programs",
+    "name": "VirtualHome",
+    "path": "docs/source_material/papers/[CVPR'18]【VirtualHome】家务动作程序 - VirtualHome- Simulating Household Activities via Programs.pdf",
+    "sourceUrl": "https://openaccess.thecvf.com/content_cvpr_2018/html/Puig_VirtualHome_Simulating_Household_CVPR_2018_paper.html",
+    "bytes": 1114306
+  },
+  {
+    "id": 13,
+    "title": "Watch-And-Help: A Challenge for Social Perception and Human-AI Collaboration",
+    "name": "Watch-And-Help",
+    "path": "docs/source_material/papers/[ICLR'21]【Watch-And-Help】观察示范再协作 - Watch-And-Help- A Challenge for Social Perception and Human-AI Collaboration.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2010.09890",
+    "bytes": 7273578
+  },
+  {
+    "id": 14,
+    "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
+    "name": "TDW-MAT",
+    "path": "docs/source_material/papers/[ICLR'24]【TDW-MAT】具身合作搬运 - Building Cooperative Embodied Agents Modularly with Large Language Models.pdf",
+    "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/54b8b4e0b4ba4aad112e84f32e3b5dbb-Abstract-Conference.html",
+    "bytes": 16947808
+  },
+  {
+    "id": 15,
+    "title": "TEACh: Task-Driven Embodied Agents That Chat",
+    "name": "TEACh",
+    "path": "docs/source_material/papers/[AAAI'22]【TEACh】对话指挥家务 - TEACh- Task-Driven Embodied Agents That Chat.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2110.00534",
+    "bytes": 2831951
+  },
+  {
+    "id": 16,
+    "title": "Habitat 3.0: A Co-Habitat for Humans, Avatars, and Robots",
+    "name": "Habitat 3.0",
+    "path": "docs/source_material/papers/[ICLR'24]【Habitat 3.0】人机共居 - Habitat 3.0- A Co-Habitat for Humans, Avatars, and Robots.pdf",
+    "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/430894999584d0bd358611e2ecf00b15-Abstract-Conference.html",
+    "bytes": 8674247
+  },
+  {
+    "id": 17,
+    "title": "BEHAVIOR-1K: A Benchmark for Embodied AI with 1,000 Everyday Activities and Realistic Simulation",
+    "name": "BEHAVIOR-1K",
+    "path": "docs/source_material/papers/[CoRL'22]【BEHAVIOR-1K】千种家务任务 - BEHAVIOR-1K- A Benchmark for Embodied AI with 1,000 Everyday Activities and Realistic Simulation.pdf",
+    "sourceUrl": "https://proceedings.mlr.press/v205/li23a.html",
+    "bytes": 4040611
+  },
+  {
+    "id": 18,
+    "title": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+    "name": "ALFRED / ALFWorld",
+    "path": "docs/source_material/papers/[ICLR'21]【ALFRED】文本具身对齐 - ALFWorld- Aligning Text and Embodied Environments for Interactive Learning.pdf",
+    "sourceUrl": "https://openreview.net/forum?id=0IOX0YcCdTn",
+    "bytes": 1783014
+  },
+  {
+    "id": 19,
+    "title": "Robotouille: An Asynchronous Planning Benchmark for LLM Agents",
+    "name": "Robotouille",
+    "path": "docs/source_material/papers/[ICLR'25]【Robotouille】异步厨房规划 - Robotouille- An Asynchronous Planning Benchmark for LLM Agents.pdf",
+    "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/d033407a1a4b7a75cd5f9e4575ad9fb5-Abstract-Conference.html",
+    "bytes": 29222883
+  },
+  {
+    "id": 20,
+    "title": "AI Metropolis: Scaling Large Language Model-based Multi-Agent Simulation with Out-of-order Execution",
+    "name": "AI Metropolis",
+    "path": "docs/source_material/papers/[MLSys'25]【AI Metropolis】乱序模拟执行 - AI Metropolis- Scaling Large Language Model-based Multi-Agent Simulation with Out-of-order Execution.pdf",
+    "sourceUrl": "https://proceedings.mlsys.org/paper_files/paper/2025/hash/4f31327e046913c7238d5b671f5d820e-Abstract-Conference.html",
+    "bytes": 1759485
+  },
+  {
+    "id": 21,
+    "title": "Learning to Interrupt in Language-based Multi-agent Communication",
+    "name": "HandRaiser",
+    "path": "docs/source_material/papers/[COLM'26]【HandRaiser】学习发言时机 - Learning to Interrupt in Language-based Multi-agent Communication.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2604.06452",
+    "bytes": 1048647
+  },
+  {
+    "id": 22,
+    "title": "Time to Talk: LLM Agents for Asynchronous Group Communication in Mafia Games",
+    "name": "Time to Talk",
+    "path": "docs/source_material/papers/[EMNLP Findings'25]【Time to Talk】黑手党异步群聊 - Time to Talk- LLM Agents for Asynchronous Group Communication in Mafia Games.pdf",
+    "sourceUrl": "https://aclanthology.org/2025.findings-emnlp.608/",
+    "bytes": 808294
+  },
+  {
+    "id": 23,
+    "title": "Text Overlap: An LLM with Human-like Conversational Behaviors",
+    "name": "OverlapBot",
+    "path": "docs/source_material/papers/[SICon'25]【Text Overlap (published version)】人类式文字重叠 - Text Overlap- An LLM with Human-like Conversational Behaviors.pdf",
+    "sourceUrl": "https://aclanthology.org/2025.sicon-1.10/",
+    "bytes": 206812
+  },
+  {
+    "id": 24,
+    "title": "BotVerse: Real-Time Event-Driven Simulation of Social Agents",
+    "name": "BotVerse",
+    "path": "docs/source_material/papers/[AAMAS Demo'26]【BotVerse】事件驱动社会 - BotVerse- Real-Time Event-Driven Simulation of Social Agents.pdf",
+    "sourceUrl": "https://ifaamas.org/Proceedings/aamas2026/forms/contents.htm",
+    "bytes": 1846592
+  },
+  {
+    "id": 25,
+    "title": "Virtual Community: An Open World for Humans, Robots, and Society",
+    "name": "Virtual Community",
+    "path": "docs/source_material/papers/[ICLR'26]【Virtual Community】开放社区 - Virtual Community- An Open World for Humans, Robots, and Society.pdf",
+    "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/68933e3533add841e115a5605c76eeba-Abstract-Conference.html",
+    "bytes": 18264444
+  },
+  {
+    "id": 26,
+    "title": "Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces",
+    "name": "OmniBehavior",
+    "path": "docs/source_material/papers/[arXiv'26]【OmniBehavior】快手数字轨迹 - Towards Real-world Human Behavior Simulation- Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2604.08362",
+    "bytes": 4232103
+  },
+  {
+    "id": 27,
+    "title": "Mind the Sim2Real Gap in User Simulation for Agentic Tasks",
+    "name": "User-Sim Index / Sim2Real Gap",
+    "path": "docs/source_material/papers/[COLM'26]【User-Sim Index】用户仿真迁移 - Mind the Sim2Real Gap in User Simulation for Agentic Tasks.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2603.11245",
+    "bytes": 722371
+  },
+  {
+    "id": 28,
+    "title": "SimBench: Benchmarking the Ability of Large Language Models to Simulate Human Behaviors",
+    "name": "SimBench",
+    "path": "docs/source_material/papers/[ICLR'26]【SimBench】人类行为评测 - SimBench- Benchmarking the Ability of Large Language Models to Simulate Human Behaviors.pdf",
+    "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/2fc4d6a6400addda7493b9db258c34e0-Abstract-Conference.html",
+    "bytes": 1242947
+  },
+  {
+    "id": 29,
+    "title": "How Far are LLMs from Being Our Digital Twins? A Benchmark for Persona-Based Behavior Chain Simulation",
+    "name": "BehaviorChain / Digital Twins",
+    "path": "docs/source_material/papers/[ACL Findings'25]【BehaviorChain】个性行为链 - How Far are LLMs from Being Our Digital Twins? A Benchmark for Persona-Based Behavior Chain Simulation.pdf",
+    "sourceUrl": "https://aclanthology.org/2025.findings-acl.813/",
+    "bytes": 1867083
+  },
+  {
+    "id": 30,
+    "title": "ARAS Human Activity Datasets In Multiple Homes with Multiple Residents",
+    "name": "ARAS",
+    "path": "docs/source_material/papers/[PervasiveHealth'13]【ARAS】双住户传感器 - ARAS Human Activity Datasets In Multiple Homes with Multiple Residents.pdf",
+    "sourceUrl": "https://doi.org/10.4108/icst.pervasivehealth.2013.252120",
+    "bytes": 1115292
+  },
+  {
+    "id": 31,
+    "title": "CASAS: A Smart Home in a Box",
+    "name": "CASAS multi-resident",
+    "path": "docs/source_material/papers/[IEEE Computer'13]【CASAS multi-resident】盒装智能家居 - CASAS- A Smart Home in a Box.pdf",
+    "sourceUrl": "https://casas.wsu.edu/",
+    "bytes": 685251
+  },
+  {
+    "id": 34,
+    "title": "A Guide to the SPHERE 100 Homes Study Dataset",
+    "name": "SPHERE",
+    "path": "docs/source_material/papers/[arXiv'18]【SPHERE】家庭多模态数据 - A Guide to the SPHERE 100 Homes Study Dataset.pdf",
+    "sourceUrl": "https://www.nialltwomey.com/assets/pdf/elsts2018guide.pdf",
+    "bytes": 4043956
+  },
+  {
+    "id": 35,
+    "title": "ExtraSensory App: Data Collection In-the-Wild with Rich User Interface to Self-Report Behavior",
+    "name": "ExtraSensory",
+    "path": "docs/source_material/papers/[CHI'18]【ExtraSensory】野外自报行为 - ExtraSensory App- Data Collection In-the-Wild with Rich User Interface to Self-Report Behavior.pdf",
+    "sourceUrl": "http://extrasensory.ucsd.edu/",
+    "bytes": 1742062
+  },
+  {
+    "id": 36,
+    "title": "Rescaling Egocentric Vision: Collection, Pipeline and Challenges for EPIC-KITCHENS-100",
+    "name": "EPIC-KITCHENS-100",
+    "path": "docs/source_material/papers/[IJCV'22]【EPIC-KITCHENS-100】第一视角厨房 - Rescaling Egocentric Vision- Collection, Pipeline and Challenges for EPIC-KITCHENS-100.pdf",
+    "sourceUrl": "https://link.springer.com/article/10.1007/s11263-021-01531-2",
+    "bytes": 5011614
+  },
+  {
+    "id": 37,
+    "title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video",
+    "name": "Ego4D / EgoLife",
+    "path": "docs/source_material/papers/[CVPR'22]【Ego4D】全球自我中心视频 - Ego4D- Around the World in 3,000 Hours of Egocentric Video.pdf",
+    "sourceUrl": "https://openaccess.thecvf.com/content/CVPR2022/html/Grauman_Ego4D_Around_the_World_in_3000_Hours_of_Egocentric_Video_CVPR_2022_paper.html",
+    "bytes": 2607344
+  },
+  {
+    "id": 38,
+    "title": "The Fifth 'CHiME' Speech Separation and Recognition Challenge: Dataset, Task and Baselines",
+    "name": "CHiME-5",
+    "path": "docs/source_material/papers/[Interspeech'18]【CHiME-5】家庭聚餐语音 - The Fifth 'CHiME' Speech Separation and Recognition Challenge- Dataset, Task and Baselines.pdf",
+    "sourceUrl": "https://www.isca-archive.org/interspeech_2018/barker18_interspeech.html",
+    "bytes": 178445
+  },
+  {
+    "id": 39,
+    "title": "HomeBank: An Online Repository of Daylong Child-Centered Audio Recordings",
+    "name": "HomeBank",
+    "path": "docs/source_material/papers/[Semin Speech Lang'16]【HomeBank】儿童全天录音 - HomeBank- An Online Repository of Daylong Child-Centered Audio Recordings.pdf",
+    "sourceUrl": "https://doi.org/10.1055/s-0036-1580745",
+    "bytes": 114123
+  },
+  {
+    "id": 40,
+    "title": "MuRAL: A Multi-Resident Ambient Sensor Dataset Annotated with Natural Language for Activities of Daily Living",
+    "name": "MuRAL",
+    "path": "docs/source_material/papers/[IE'26]【MuRAL】多住户语言标注 - MuRAL- A Multi-Resident Ambient Sensor Dataset Annotated with Natural Language for Activities of Daily Living.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2504.20505",
+    "bytes": 1851346
+  },
+  {
+    "id": 41,
+    "title": "Toyota Smarthome: Real-World Activities of Daily Living",
+    "name": "Toyota Smarthome",
+    "path": "docs/source_material/papers/[ICCV'19]【Toyota Smarthome】真实居家视频 - Toyota Smarthome- Real-World Activities of Daily Living.pdf",
+    "sourceUrl": "https://openaccess.thecvf.com/content_ICCV_2019/html/Das_Toyota_Smarthome_Real-World_Activities_of_Daily_Living_ICCV_2019_paper.html",
+    "bytes": 1043684
+  },
+  {
+    "id": 42,
+    "title": "Hollywood in Homes: Crowdsourcing Data Collection for Activity Understanding",
+    "name": "Charades",
+    "path": "docs/source_material/papers/[ECCV'16]【Charades】众包室内活动 - Hollywood in Homes- Crowdsourcing Data Collection for Activity Understanding.pdf",
+    "sourceUrl": "https://publications.ri.cmu.edu/hollywood-in-homes-crowdsourcing-data-collection-for-activity-understanding",
+    "bytes": 4798587
+  },
+  {
+    "id": 44,
+    "title": "SIMLIFE: Pattern Understanding for Long-Horizon Human-Agent Partnership",
+    "name": "SIMLIFE / SimLife-BP",
+    "path": "docs/source_material/papers/[COLM Workshop'26]【SIMLIFE】长期伙伴模式 - SIMLIFE- Pattern Understanding for Long-Horizon Human-Agent Partnership.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2609.19610",
+    "bytes": 5727089
+  },
+  {
+    "id": 45,
+    "title": "Position: LLM-Based Social Simulations Require a Boundary",
+    "name": "Position: LLM-Based Social Simulations Require a Boundary",
+    "path": "docs/source_material/papers/[ICML'26]【SocialSim Boundary】社会模拟边界 - Position- LLM-Based Social Simulations Require a Boundary.pdf",
+    "sourceUrl": "https://proceedings.mlr.press/v306/wu26co.html",
+    "bytes": 419667
+  },
+  {
+    "id": 46,
+    "title": "Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry",
+    "name": "Communication & Verification under Information Asymmetry",
+    "path": "docs/source_material/papers/[COLM'26]【InfoAsymmetry】信息不对称协作 - Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2510.25595",
+    "bytes": 1436463
+  },
+  {
+    "id": 47,
+    "title": "SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution",
+    "name": "SceneMosaic",
+    "path": "docs/source_material/papers/[arXiv'26]【SceneMosaic】场景布局演化 - SceneMosaic- Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2609.05594",
+    "bytes": 6088377
+  },
+  {
+    "id": 48,
+    "title": "SceneFoundry: Generating Interactive Infinite 3D Worlds",
+    "name": "SceneFoundry",
+    "path": "docs/source_material/papers/[arXiv'26]【SceneFoundry】无限交互场景 - SceneFoundry- Generating Interactive Infinite 3D Worlds.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2601.05810",
+    "bytes": 5690217
+  },
+  {
+    "id": 49,
+    "title": "PhyScene: Physically Interactable 3D Scene Synthesis for Embodied AI",
+    "name": "PhyScene",
+    "path": "docs/source_material/papers/[CVPR'24]【PhyScene】物理可交互场景 - PhyScene- Physically Interactable 3D Scene Synthesis for Embodied AI.pdf",
+    "sourceUrl": "https://openaccess.thecvf.com/content/CVPR2024/html/Yang_PhyScene_Physically_Interactable_3D_Scene_Synthesis_for_Embodied_AI_CVPR_2024_paper.html",
+    "bytes": 10010803
+  },
+  {
+    "id": 50,
+    "title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+    "name": "SAGE: Agentic 3D Scene Generation",
+    "path": "docs/source_material/papers/[CVPR'26]【SAGE- Agentic 3D Scene Gener】代理场景生成 - SAGE- Scalable Agentic 3D Scene Generation for Embodied AI.pdf",
+    "sourceUrl": "https://openaccess.thecvf.com/content/CVPR2026/html/Xia_SAGE_Scalable_Agentic_3D_Scene_Generation_for_Embodied_AI_CVPR_2026_paper.html",
+    "bytes": 2659364
+  },
+  {
+    "id": 51,
+    "title": "Can LLM Agents Simulate Multi-Turn Human Behavior? Evidence from Real Online Customer Behavior Data",
+    "name": "Can LLM Agents Simulate Multi-Turn Human Behavior?",
+    "path": "docs/source_material/papers/[ACL'26]【MultiTurn Behavior】线上购物点击 - Can LLM Agents Simulate Multi-Turn Human Behavior? Evidence from Real Online Customer Behavior Data.pdf",
+    "sourceUrl": "https://aclanthology.org/2026.acl-long.2034/",
+    "bytes": 757374
+  },
+  {
+    "id": 52,
+    "title": "LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals",
+    "name": "Generative Agent Simulations of 1,000 People",
+    "path": "docs/source_material/papers/[arXiv'24]【1000 People】千人访谈代理 - LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2411.10109",
+    "bytes": 3563209
+  },
+  {
+    "id": 53,
+    "title": "Multi-Agent Social Simulation: Protocolizing LLM-Driven Agent-Based Modeling as a Quantitative Research Method",
+    "name": "Multi-Agent Social Simulation (MASS)",
+    "path": "docs/source_material/papers/[AI'26]【MASS】定量模拟协议 - Multi-Agent Social Simulation- Protocolizing LLM-Driven Agent-Based Modeling as a Quantitative Research Method.pdf",
+    "sourceUrl": "https://www.mdpi.com/2673-2688/7/8/279",
+    "bytes": 932397
+  },
+  {
+    "id": 54,
+    "title": "S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents",
+    "name": "S2-MAS · Society-scale Household Personas",
+    "path": "docs/source_material/papers/[arXiv'26]【S2-MAS】五亿家庭画像 - S$^2$-MAS- A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2610.27746",
+    "bytes": 3188744
+  },
+  {
+    "id": 55,
+    "title": "EgoLife: Towards Egocentric Life Assistant",
+    "name": "EgoLife / EgoLifeQA",
+    "path": "docs/source_material/papers/[CVPR'25]【EgoLife】日常生活视频 - EgoLife- Towards Egocentric Life Assistant.pdf",
+    "sourceUrl": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_EgoLife_Towards_Egocentric_Life_Assistant_CVPR_2025_paper.html",
+    "bytes": 4077494
+  },
+  {
+    "id": 56,
+    "title": "MMEgo: Towards Building Egocentric Multimodal LLMs for Video QA",
+    "name": "MM-Ego: Egocentric Multimodal LLMs",
+    "path": "docs/source_material/papers/[ICLR'25]【MM-Ego- Egocentric Multimoda】第一视角问答 - MMEgo- Towards Building Egocentric Multimodal LLMs for Video QA.pdf",
+    "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/b29a95e7d9f1e1a6dfc567b556733744-Abstract-Conference.html",
+    "bytes": 25996680
+  },
+  {
+    "id": 57,
+    "title": "EgoMemReason: A Memory-Driven Reasoning Benchmark for Long-Horizon Egocentric Video Understanding",
+    "name": "EgoMemReason / EgoMemory",
+    "path": "docs/source_material/papers/[COLM'26]【EgoMemReason】周级生活记忆 - EgoMemReason- A Memory-Driven Reasoning Benchmark for Long-Horizon Egocentric Video Understanding.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2605.09874",
+    "bytes": 4967356
+  },
+  {
+    "id": 58,
+    "title": "Moshi: a speech-text foundation model for real-time dialogue",
+    "name": "Moshi",
+    "path": "docs/source_material/papers/[arXiv'24]【Moshi】实时语音对话 - Moshi- a speech-text foundation model for real-time dialogue.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2410.00037",
+    "bytes": 4770870
+  },
+  {
+    "id": 59,
+    "title": "End-to-end Listen, Look, Speak and Act",
+    "name": "ELLSA",
+    "path": "docs/source_material/papers/[ICLR'26]【ELLSA】听看说行动 - End-to-end Listen, Look, Speak and Act.pdf",
+    "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6d8af672c0bca7a4be6f0cd0d229c05c-Abstract-Conference.html",
+    "bytes": 1514334
+  },
+  {
+    "id": 60,
+    "title": "MultiTalk: Scaling Full-Duplex Speech Models to Long, Multi-Party, Bilingual Conversation",
+    "name": "MultiTalk",
+    "path": "docs/source_material/papers/[NeurIPS'26]【MultiTalk】多人双语语音 - MultiTalk- Scaling Full-Duplex Speech Models to Long, Multi-Party, Bilingual Conversation.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2609.36903",
+    "bytes": 2491069
+  },
+  {
+    "id": 61,
+    "title": "Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models",
+    "name": "Multi-Faceted Interactivity Alignment",
+    "path": "docs/source_material/papers/[EMNLP'26]【Multi-Faceted Interactivity 】全双工交互对齐 - Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models.pdf",
+    "sourceUrl": "https://aclanthology.org/2026.emnlp-main.2331/",
+    "bytes": 1282234
+  },
+  {
+    "id": 62,
+    "title": "Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue",
+    "name": "Duplex-MPE",
+    "path": "docs/source_material/papers/[arXiv'26]【Duplex-MPE】多人全双工评测 - Duplex-MPE- Benchmarking Multi-Party Interaction in Full-Duplex Dialogue.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2609.31948",
+    "bytes": 4344665
+  },
+  {
+    "id": 63,
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations",
+    "name": "AutoGen",
+    "path": "docs/source_material/papers/[COLM'24]【AutoGen】多代理会话 - AutoGen- Enabling Next-Gen LLM Applications via Multi-Agent Conversations.pdf",
+    "sourceUrl": "https://www.microsoft.com/en-us/research/publication/autogen-enabling-next-gen-llm-applications-via-multi-agent-conversation-framework/",
+    "bytes": 3366208
+  },
+  {
+    "id": 66,
+    "title": "Speculative Interaction Agents: Building Real-Time Agents with Asynchronous I/O and Speculative Tool Calling",
+    "name": "Building Interactive Real-Time Agents",
+    "path": "docs/source_material/papers/[arXiv'26]【Speculative Agents】异步推测调用 - Speculative Interaction Agents- Building Real-Time Agents with Asynchronous I-O and Speculative Tool Calling.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2605.13360",
+    "bytes": 995922
+  },
+  {
+    "id": 67,
+    "title": "Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters",
+    "name": "TreeDebater",
+    "path": "docs/source_material/papers/[ICLR'26]【TreeDebater】树搜索辩论 - Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters.pdf",
+    "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ee3ce0121939f42098cdefd3ea025bf1-Abstract-Conference.html",
+    "bytes": 2750259
+  },
+  {
+    "id": 68,
+    "title": "Cooperative Strategic Planning Enhances Reasoning Capabilities in Large Language Models",
+    "name": "CoPlanner",
+    "path": "docs/source_material/papers/[arXiv'24]【CoPlanner】合作战略规划 - Cooperative Strategic Planning Enhances Reasoning Capabilities in Large Language Models.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2410.20007",
+    "bytes": 596279
+  },
+  {
+    "id": 69,
+    "title": "Learning from Mistakes via Cooperative Study Assistant for Large Language Models",
+    "name": "SALAM",
+    "path": "docs/source_material/papers/[EMNLP'23]【SALAM】纠错学习助教 - Learning from Mistakes via Cooperative Study Assistant for Large Language Models.pdf",
+    "sourceUrl": "https://aclanthology.org/2023.emnlp-main.659/",
+    "bytes": 824042
+  },
+  {
+    "id": 70,
+    "title": "Learning Personalized Alignment for Evaluating Open-ended Text Generation",
+    "name": "PerSE",
+    "path": "docs/source_material/papers/[EMNLP'24]【PerSE】个性化文本评价 - Learning Personalized Alignment for Evaluating Open-ended Text Generation.pdf",
+    "sourceUrl": "https://aclanthology.org/2024.emnlp-main.737/",
+    "bytes": 879487
+  },
+  {
+    "id": 71,
+    "title": "TypedThinker: Diversify Large Language Model Reasoning with Typed Thinking",
+    "name": "TypedThinker",
+    "path": "docs/source_material/papers/[ICLR'25]【TypedThinker】类型化思维 - TypedThinker- Diversify Large Language Model Reasoning with Typed Thinking.pdf",
+    "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/494ad6d9b36d9a1528dbf3baeb4e8a72-Abstract-Conference.html",
+    "bytes": 928730
+  },
+  {
+    "id": 72,
+    "title": "Scaling LLM Inference Efficiently with Optimized Sample Compute Allocation",
+    "name": "OSCA",
+    "path": "docs/source_material/papers/[NAACL'25]【OSCA】推理采样分配 - Scaling LLM Inference Efficiently with Optimized Sample Compute Allocation.pdf",
+    "sourceUrl": "https://aclanthology.org/2025.naacl-long.404/",
+    "bytes": 869669
+  },
+  {
+    "id": 73,
+    "title": "CRAB-Bench: Evaluating LLM Agents under Complex Task Dependencies and Human-aligned User Simulation",
+    "name": "CRAB-Bench / RUSE",
+    "path": "docs/source_material/papers/[arXiv'26]【CRAB-Bench】依赖任务用户模拟 - CRAB-Bench- Evaluating LLM Agents under Complex Task Dependencies and Human-aligned User Simulation.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2606.01815",
+    "bytes": 3325842
+  },
+  {
+    "id": 75,
+    "title": "The AMI Meeting Corpus: A Pre-announcement",
+    "name": "AMI Meeting Corpus",
+    "path": "docs/source_material/papers/[MLMI'05]【AMI Meeting Corpus】多模态会议 - The AMI Meeting Corpus- A Pre-announcement.pdf",
+    "sourceUrl": "https://link.springer.com/chapter/10.1007/11677482_3",
+    "bytes": 346501
+  },
+  {
+    "id": 77,
+    "title": "Text Overlap: An LLM with Human-like Conversational Behaviors",
+    "name": "Text Overlap (published version)",
+    "path": "docs/source_material/papers/[SICon'25]【Text Overlap (published version)】人类式文字重叠 - Text Overlap- An LLM with Human-like Conversational Behaviors.pdf",
+    "sourceUrl": "https://aclanthology.org/2025.sicon-1.10/",
+    "bytes": 206812
+  },
+  {
+    "id": 78,
+    "title": "ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday Tasks",
+    "name": "ALFRED",
+    "path": "docs/source_material/papers/[CVPR'20]【ALFRED】具身指令家务 - ALFRED- A Benchmark for Interpreting Grounded Instructions for Everyday Tasks.pdf",
+    "sourceUrl": "https://openaccess.thecvf.com/content_CVPR_2020/html/Shridhar_ALFRED_A_Benchmark_for_Interpreting_Grounded_Instructions_for_Everyday_Tasks_CVPR_2020_paper.html",
+    "bytes": 2876313
+  },
+  {
+    "id": 79,
+    "title": "MTR-DuplexBench: Towards a Comprehensive Evaluation of Multi-Round Conversations for Full-Duplex Speech Language Models",
+    "name": "MTR-DuplexBench",
+    "path": "docs/source_material/papers/[ACL Findings'26]【MTR-DuplexBench】多轮全双工评测 - MTR-DuplexBench- Towards a Comprehensive Evaluation of Multi-Round Conversations for Full-Duplex Speech Language Models.pdf",
+    "sourceUrl": "https://aclanthology.org/2026.findings-acl.263/",
+    "bytes": 601038
+  },
+  {
+    "id": 81,
+    "title": "Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents",
+    "name": "Shall We Team Up",
+    "path": "docs/source_material/papers/[EMNLP Findings'24]【Shall We Team Up】竞争中自发合作 - Shall We Team Up- Exploring Spontaneous Cooperation of Competing LLM Agents.pdf",
+    "sourceUrl": "https://aclanthology.org/2024.findings-emnlp.297/",
+    "bytes": 3670297
+  },
+  {
+    "id": 82,
+    "title": "Towards A Holistic Landscape of Situated Theory of Mind in Large Language Models",
+    "name": "Situated Theory of Mind",
+    "path": "docs/source_material/papers/[EMNLP Findings'23]【Situated Theory of Mind】情境心智理论 - Towards A Holistic Landscape of Situated Theory of Mind in Large Language Models.pdf",
+    "sourceUrl": "https://aclanthology.org/2023.findings-emnlp.72/",
+    "bytes": 975839
+  },
+  {
+    "id": 83,
+    "title": "Vision-Language Models Are Not Pragmatically Competent in Referring Expression Generation",
+    "name": "RefOI / Pragmatic REG",
+    "path": "docs/source_material/papers/[COLM'25]【RefOI】语用指代表达 - Vision-Language Models Are Not Pragmatically Competent in Referring Expression Generation.pdf",
+    "sourceUrl": "https://openreview.net/forum?id=oj3ETSitjb",
+    "bytes": 26045611
+  },
+  {
+    "id": 84,
+    "title": "Think, Act, and Ask: Open-World Interactive Personalized Robot Navigation",
+    "name": "Think Act and Ask / ORION",
+    "path": "docs/source_material/papers/[ICRA'24]【Think Act and Ask】个性化机器人导航 - Think, Act, and Ask- Open-World Interactive Personalized Robot Navigation.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2310.07968",
+    "bytes": 908141
+  },
+  {
+    "id": 85,
+    "title": "Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations",
+    "name": "Smart Agent-Based Modeling / SABM",
+    "path": "docs/source_material/papers/[arXiv'23]【Smart Agent-Based Modeling】智能主体建模 - Smart Agent-Based Modeling- On the Use of Large Language Models in Computer Simulations.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2311.06330",
+    "bytes": 6398029
+  },
+  {
+    "id": 86,
+    "title": "Toward Family-Robot Interactions: A Family-Centered Framework in HRI",
+    "name": "Toward Family-Robot Interactions",
+    "path": "docs/source_material/papers/[HRI'24]【Toward Family-Robot Interactions】家庭中心HRI - Toward Family-Robot Interactions- A Family-Centered Framework in HRI.pdf",
+    "sourceUrl": "https://doi.org/10.1145/3610977.3634976",
+    "bytes": 930830
+  },
+  {
+    "id": 87,
+    "title": "Family Theories in Child-Robot Interactions: Understanding Families as a Whole for Child-Robot Interaction Design",
+    "name": "Family Theories in Child-Robot Interactions",
+    "path": "docs/source_material/papers/[IDC'23]【Family Theories】儿童家庭系统 - Family Theories in Child-Robot Interactions- Understanding Families as a Whole for Child-Robot Interaction Design.pdf",
+    "sourceUrl": "https://doi.org/10.1145/3585088.3589386",
+    "bytes": 748217
+  },
+  {
+    "id": 88,
+    "title": "Designing Robots to Support Parent-Child Connections: Opportunities Through Robot-Mediated Communication",
+    "name": "Robot-Mediated Parent-Child Connections",
+    "path": "docs/source_material/papers/[IDC'26]【Parent-Child】亲子机器人通信 - Designing Robots to Support Parent-Child Connections- Opportunities Through Robot-Mediated Communication.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2604.23976",
+    "bytes": 1610075
+  },
+  {
+    "id": 89,
+    "title": "Supporting Family-School Partnerships with Robot-Facilitated Home-Based Activities",
+    "name": "Robot-Facilitated Home-Based Activities",
+    "path": "docs/source_material/papers/[IDC'26]【Family-School】家庭学校联动 - Supporting Family-School Partnerships with Robot-Facilitated Home-Based Activities.pdf",
+    "sourceUrl": "https://arxiv.org/abs/2604.23978",
+    "bytes": 4331162
+  },
+  {
+    "id": 91,
+    "title": "Activity Recognition in the Home Using Simple and Ubiquitous Sensors",
+    "name": "MIT Tapia Home Activity Sensors",
+    "path": "docs/source_material/papers/[Pervasive'04]【MIT Tapia Home Activity Sensors】简单家居传感器 - Activity Recognition in the Home Using Simple and Ubiquitous Sensors.pdf",
+    "sourceUrl": "https://link.springer.com/chapter/10.1007/978-3-540-24646-6_10",
+    "bytes": 675000
+  },
+  {
+    "id": 92,
+    "title": "A Living Laboratory for the Design and Evaluation of Ubiquitous Computing Technologies",
+    "name": "MIT PlaceLab",
+    "path": "docs/source_material/papers/[CHI EA'05]【MIT PlaceLab】真实居住实验室 - A Living Laboratory for the Design and Evaluation of Ubiquitous Computing Technologies.pdf",
+    "sourceUrl": "https://www.media.mit.edu/publications/a-living-laboratory-for-the-design-and-evaluation-of-ubiquitous-computing-technologies-2/",
+    "bytes": 374947
+  },
+  {
+    "id": 93,
+    "title": "Recognizing independent and joint activities among multiple residents in smart environments",
+    "name": "CASAS Kyoto Multi-resident",
+    "path": "docs/source_material/papers/[JAIHC'10]【CASAS Kyoto Multi-resident】多住户独立联合活动 - Recognizing independent and joint activities among multiple residents in smart environments.pdf",
+    "sourceUrl": "https://doi.org/10.1007/s12652-009-0007-1",
+    "bytes": 703413
+  },
+  {
+    "id": 94,
+    "title": "CHiME-6 Challenge: Tackling Multispeaker Speech Recognition for Unsegmented Recordings",
+    "name": "CHiME-6 (CHiME-5 corrected)",
+    "path": "docs/source_material/papers/[CHiME Workshop'20]【CHiME-6 (CHiME-5 corrected)】多人语音校正 - CHiME-6 Challenge- Tackling Multispeaker Speech Recognition for Unsegmented Recordings.pdf",
+    "sourceUrl": "https://www.chimechallenge.org/datasets/chime6",
+    "bytes": 185297
+  },
+  {
+    "id": 95,
+    "title": "MindAgent: Emergent Gaming Interaction",
+    "name": "MindAgent / CUISINEWORLD",
+    "path": "docs/source_material/papers/[NAACL Findings'24]【MindAgent】多代理游戏厨房 - MindAgent- Emergent Gaming Interaction.pdf",
+    "sourceUrl": "https://aclanthology.org/2024.findings-naacl.200/",
+    "bytes": 24818667
+  },
+  {
+    "id": 96,
+    "title": "Go Beyond Imagination: Maximizing Episodic Reachability with World Models",
+    "name": "Go Beyond Imagination / GoBI",
+    "path": "docs/source_material/papers/[ICML'23]【Go Beyond Imagination】世界模型探索 - Go Beyond Imagination- Maximizing Episodic Reachability with World Models.pdf",
+    "sourceUrl": "https://proceedings.mlr.press/v202/fu23c.html",
+    "bytes": 5468838
+  },
+  {
+    "id": 97,
+    "title": "Simulating Human-like Daily Activities with Desire-driven Autonomy",
+    "name": "D2A · Desire-driven Autonomy",
+    "path": "docs/source_material/papers/[ICLR'25]【D2A】多维需求驱动日常活动 - Simulating Human-like Daily Activities with Desire-driven Autonomy.pdf",
+    "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/513cb685f67550dbd133b81a7a24249f-Abstract-Conference.html",
+    "bytes": 2889773
+  },
+  {
+    "id": 98,
+    "title": "DynamicTHOR: A Scalable Dataset of Human-Centric Dynamic Scenes for Embodied AI",
+    "name": "DynamicTHOR",
+    "path": "docs/source_material/papers/[Scientific Data'26]【DynamicTHOR】日程驱动物体迁移 - DynamicTHOR- A Scalable Dataset of Human-Centric Dynamic Scenes for Embodied AI.pdf",
+    "sourceUrl": "https://www.nature.com/articles/s41597-026-07201-7",
+    "bytes": 1485687
+  }
+]
