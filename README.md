@@ -4,7 +4,7 @@
 
 ## 在线阅读
 
-在线入口：[https://machine-aliveness-research.github.io/Luvworld-Literature/](https://machine-aliveness-research.github.io/Luvworld-Literature/)。详情页中的“打开本地 PDF”打开本站归档的对应原文；无论文PDF的条目保留官方网页和明确来源边界。
+在线入口：[https://machine-aliveness-research.github.io/Luvworld-Literature/](https://machine-aliveness-research.github.io/Luvworld-Literature/)。详情页中的“阅读 PDF”打开本站归档的对应原文；无论文PDF的条目保留官方网页和明确来源边界。
 
 ## 内容与更新
 
