@@ -2464,7 +2464,7 @@ apply();
  'use strict';
  function lang(){return typeof window.familyGetLanguage==='function'?window.familyGetLanguage():(document.documentElement.lang.toLowerCase().startsWith('en')?'en':'zh');}
  const SOURCE={local_full_text:{zh:'已对照本地论文原文',en:'Checked against local paper'},uploaded_full_text:{zh:'交接时上传的论文全文',en:'Originally supplied full paper'},official_abstract_or_project:{zh:'官方摘要 / 项目资料',en:'Official abstract / project source'},provisional_contextual_summary:{zh:'原文细节仍待核对',en:'Details pending primary-source verification'}};
- const RELATION={cites_and_compares:{zh:'引用并比较',en:'Cites and compares'},cited_and_compared_by:{zh:'被引用并比较',en:'Cited and compared by'},adapts_method_from:{zh:'借鉴活动选择方法',en:'Adapts activity selection from'},method_adapted_by:{zh:'活动选择方法被借鉴',en:'Activity selection adapted by'},adapts_architecture_from:{zh:'借鉴架构与会话机制',en:'Adapts architecture and conversations from'},architecture_adapted_by:{zh:'架构与会话机制被借鉴',en:'Architecture and conversations adapted by'}};
+ const RELATION={cites_and_compares:{zh:'引用并比较',en:'Cites and compares'},cited_and_compared_by:{zh:'被引用并比较',en:'Cited and compared by'},adapts_method_from:{zh:'借鉴活动选择方法',en:'Adapts activity selection from'},method_adapted_by:{zh:'活动选择方法被借鉴',en:'Activity selection adapted by'},adapts_architecture_from:{zh:'借鉴架构',en:'Adapts architecture from'},architecture_adapted_by:{zh:'架构被借鉴',en:'Architecture adapted by'}};
  Object.assign(RELATION,{
    complementary_resource:{zh:'互补资源 · 综述对照',en:'Complementary resource · Editorial comparison'},
    method_comparison:{zh:'方法与评测 · 综述对照',en:'Methods and evaluation · Editorial comparison'},

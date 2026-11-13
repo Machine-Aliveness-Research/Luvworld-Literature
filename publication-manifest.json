@@ -3,10 +3,10 @@
   "schemaVersion": "1.0",
   "catalogueRecords": 103,
   "atlasPath": "atlas/FamilySim_Research_Atlas_v1.0.html",
-  "sourceHtmlSHA256": "b3e068e00ef5300360664cd8e55c8976f12f07f24e3031395eb5c40be38e2368",
+  "sourceHtmlSHA256": "4fb38c0b33c02710ece01f7be3b650262afa8dd013c3a159b04e0f2728e600fc",
   "pdfFiles": 94,
   "officialWebArchives": 10,
-  "totalBytes": 485369551,
+  "totalBytes": 485369419,
   "files": [
     {
       "path": ".nojekyll",
@@ -15,8 +15,8 @@
     },
     {
       "path": "atlas/FamilySim_Research_Atlas_v1.0.html",
-      "bytes": 2275960,
-      "sha256": "b3e068e00ef5300360664cd8e55c8976f12f07f24e3031395eb5c40be38e2368"
+      "bytes": 2275894,
+      "sha256": "4fb38c0b33c02710ece01f7be3b650262afa8dd013c3a159b04e0f2728e600fc"
     },
     {
       "path": "docs/source_material/papers/[AAAI'22]【TEACh】对话指挥家务 - TEACh- Task-Driven Embodied Agents That Chat.pdf",
@@ -540,8 +540,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 2276016,
-      "sha256": "f6a4657c4aa3da73cd16221db9fe08ec4566bf94e9c043f2c5b3edf77239fc53"
+      "bytes": 2275950,
+      "sha256": "14ecb9a40ced8c2e776010dfc92f1cad42cdd4052a4b959a9b9038af079f1c48"
     },
     {
       "path": "reader/index.html",
