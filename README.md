@@ -1,6 +1,6 @@
 # FamilySim / LuvWorld Literature Atlas
 
-中英文文献库：98条研究记录，含分类、原文场景与评测协议、BibTeX、论文关联和FamilySim baseline适配分析。页面无需API key或后端。
+中英文文献库：103条研究记录，含分类、原文场景与评测协议、BibTeX、论文关联和FamilySim baseline适配分析。页面无需API key或后端。
 
 ## 在线阅读
 
@@ -19,3 +19,5 @@
 该站点只发布文献页面与资源，不发布Luvworld模拟器源码、运行轨迹、凭证或内部审计附件。评分是针对家庭日内活动目标的综述判断，不是论文质量或已测性能。
 
 PDF阅读入口使用同站点的Mozilla PDF.js兼容阅读器，支持按需分段加载和翻页，不依赖浏览器PDF插件；同时保留下载原文和直接打开文件的入口。第三方版本与许可证见`vendor/pdfjs/LICENSE`。
+
+基线候选榜：[Baselines](https://machine-aliveness-research.github.io/Luvworld-Literature/#baselines)。目前28项架构适配评估按0–10分降序排列，可按对照角色、≥7分和关键词筛选。2026-11-13新增ASVO、X’s Day、AgentSense、LLMob和SAND，所有新条目均有原文核对的双语场景/评测/基线分析；X’s Day采用作者公开稿，正式发表信息独立核验。

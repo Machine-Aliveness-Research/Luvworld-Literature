@@ -1,12 +1,12 @@
 {
-  "snapshotDate": "2026-11-12",
+  "snapshotDate": "2026-11-13",
   "schemaVersion": "1.0",
-  "catalogueRecords": 98,
+  "catalogueRecords": 103,
   "atlasPath": "atlas/FamilySim_Research_Atlas_v1.0.html",
-  "sourceHtmlSHA256": "ee5e31fc30ad21b90d4a1d7f848ffeefb59471b2e1e2d52ba83304fa21ed48a0",
-  "pdfFiles": 89,
+  "sourceHtmlSHA256": "b3e068e00ef5300360664cd8e55c8976f12f07f24e3031395eb5c40be38e2368",
+  "pdfFiles": 94,
   "officialWebArchives": 10,
-  "totalBytes": 445556628,
+  "totalBytes": 485369551,
   "files": [
     {
       "path": ".nojekyll",
@@ -15,8 +15,8 @@
     },
     {
       "path": "atlas/FamilySim_Research_Atlas_v1.0.html",
-      "bytes": 2072381,
-      "sha256": "ee5e31fc30ad21b90d4a1d7f848ffeefb59471b2e1e2d52ba83304fa21ed48a0"
+      "bytes": 2275960,
+      "sha256": "b3e068e00ef5300360664cd8e55c8976f12f07f24e3031395eb5c40be38e2368"
     },
     {
       "path": "docs/source_material/papers/[AAAI'22]【TEACh】对话指挥家务 - TEACh- Task-Driven Embodied Agents That Chat.pdf",
@@ -24,9 +24,19 @@
       "sha256": "19f8de256f0fa1af5c7a3d3a26f8d4a6f98fc362d869c8cd99ca9b95780a09bd"
     },
     {
+      "path": "docs/source_material/papers/[AAAI'26]【AgentSense】家庭日程与虚拟环境传感 - AgentSense- Virtual Sensor Data Generation Using LLM Agents in Simulated Home Environments.pdf",
+      "bytes": 10188706,
+      "sha256": "2828e762101981b754d922a5453f8541803e6c50ea1e29ce84f435f046a88dfc"
+    },
+    {
       "path": "docs/source_material/papers/[AAMAS Demo'26]【BotVerse】事件驱动社会 - BotVerse- Real-Time Event-Driven Simulation of Social Agents.pdf",
       "bytes": 1846592,
       "sha256": "d2bc8d7d0048de986a89f51a826cb242ddd5c5efae08d17db2964b7140d4e54a"
+    },
+    {
+      "path": "docs/source_material/papers/[AAMAS'26]【ASVO】家庭合作竞争与社会动机 - Beyond Self-Interest- Modeling Social-Oriented Motivation for Human-like Multi-Agent Interactions.pdf",
+      "bytes": 3405631,
+      "sha256": "a76264d8a5c18abb266b328964c37bc44fa0f42e02eea023d89946bd8f9d6dbe"
     },
     {
       "path": "docs/source_material/papers/[ACL Findings'25]【BehaviorChain】个性行为链 - How Far are LLMs from Being Our Digital Twins? A Benchmark for Persona-Based Behavior Chain Simulation.pdf",
@@ -344,6 +354,11 @@
       "sha256": "80b3d843baf3f4484f50b1f3d4a088b664ba4b48a0ab3051a4189d0efb97f480"
     },
     {
+      "path": "docs/source_material/papers/[NeurIPS'24]【LLMob】签到习惯与动机检索 - Large Language Models as Urban Residents- An LLM Agent Framework for Personal Mobility Generation.pdf",
+      "bytes": 4371463,
+      "sha256": "6eb0b5a95a2471af94ff6115bf20de72a9a5ef7a6d0c06c2900ce42b48058ce2"
+    },
+    {
       "path": "docs/source_material/papers/[NeurIPS'26]【MultiTalk】多人双语语音 - MultiTalk- Scaling Full-Duplex Speech Models to Long, Multi-Party, Bilingual Conversation.pdf",
       "bytes": 2491069,
       "sha256": "c32969dca813872821863f6a791925cd36bb2c939bf79760181af29492f235e2"
@@ -379,6 +394,11 @@
       "sha256": "d6eddc4cea88320181d094fdbd6d3b5f90da982b42aa48571d6a87646f1d42a1"
     },
     {
+      "path": "docs/source_material/papers/[TVCG'25]【X’s Day】人格与需求驱动家庭生活 - X's Day- Personality-Driven Virtual Human Behavior Generation.pdf",
+      "bytes": 19699209,
+      "sha256": "da71c057822a8d07563bd21d6016619483ba5095728bc93772416ff1ba0171b8"
+    },
+    {
       "path": "docs/source_material/papers/[UIST'22]【Social Simulacra】社群原型 - Social Simulacra- Creating Populated Prototypes for Social Computing Systems.pdf",
       "bytes": 3145870,
       "sha256": "4f043b3fe3a2933876b928a4e228b0aae9be6137dd945e3cb8155bbabb394f60"
@@ -387,6 +407,11 @@
       "path": "docs/source_material/papers/[UIST'23]【Generative Agents】小镇记忆反思 - Generative Agents- Interactive Simulacra of Human Behavior.pdf",
       "bytes": 11693164,
       "sha256": "37b0f8eb01b0f1d7cef7e6cdcb2661e9b37a85925bf83cdc7f5b550cb5827d3c"
+    },
+    {
+      "path": "docs/source_material/papers/[WWW'23]【SAND】连续需求流与事件跳变 - Learning to Simulate Daily Activities via Modeling Dynamic Human Needs.pdf",
+      "bytes": 1735855,
+      "sha256": "50433942dc65d455b04a1795245e74583771f413e7731179eac30e3bc9384400"
     },
     {
       "path": "docs/source_material/papers/[arXiv'18]【SPHERE】家庭多模态数据 - A Guide to the SPHERE 100 Homes Study Dataset.pdf",
@@ -515,8 +540,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 2072437,
-      "sha256": "be2b21c84f92247fd06709f747a0ba5008f578149cadca880d08eaea73f6c013"
+      "bytes": 2276016,
+      "sha256": "f6a4657c4aa3da73cd16221db9fe08ec4566bf94e9c043f2c5b3edf77239fc53"
     },
     {
       "path": "reader/index.html",
@@ -525,8 +550,8 @@
     },
     {
       "path": "reader/papers.json",
-      "bytes": 38400,
-      "sha256": "4ac3af22dcfdaecc88ba413994212c5e0213dbd953ed6e55ea8c00cc327f49eb"
+      "bytes": 40588,
+      "sha256": "a4d6dbf4e1e92a26e7b86689f9bce2fc476db9b76524cba61a549876fe810869"
     },
     {
       "path": "reader/reader.css",
@@ -540,8 +565,8 @@
     },
     {
       "path": "references.bib",
-      "bytes": 49008,
-      "sha256": "d4519fdbeb47e6cff69686c27a63d7100ad951e3ea16a8c6f37ba352c47cd89b"
+      "bytes": 51721,
+      "sha256": "76ddbce0fa037478b24117f52e8f6c8b3a4db58b965a89660ef7e7e3af8e2c88"
     },
     {
       "path": "vendor/pdfjs/LICENSE",

@@ -710,5 +710,45 @@
     "path": "docs/source_material/papers/[Scientific Data'26]【DynamicTHOR】日程驱动物体迁移 - DynamicTHOR- A Scalable Dataset of Human-Centric Dynamic Scenes for Embodied AI.pdf",
     "sourceUrl": "https://www.nature.com/articles/s41597-026-07201-7",
     "bytes": 1485687
+  },
+  {
+    "id": 99,
+    "title": "Beyond Self-Interest: Modeling Social-Oriented Motivation for Human-like Multi-Agent Interactions",
+    "name": "ASVO",
+    "path": "docs/source_material/papers/[AAMAS'26]【ASVO】家庭合作竞争与社会动机 - Beyond Self-Interest- Modeling Social-Oriented Motivation for Human-like Multi-Agent Interactions.pdf",
+    "sourceUrl": "https://ifaamas.org/Proceedings/aamas2026/pdfs/OITH7375.pdf",
+    "bytes": 3405631
+  },
+  {
+    "id": 100,
+    "title": "X's Day: Personality-Driven Virtual Human Behavior Generation",
+    "name": "X’s Day",
+    "path": "docs/source_material/papers/[TVCG'25]【X’s Day】人格与需求驱动家庭生活 - X's Day- Personality-Driven Virtual Human Behavior Generation.pdf",
+    "sourceUrl": "https://doi.org/10.1109/TVCG.2025.3549574",
+    "bytes": 19699209
+  },
+  {
+    "id": 101,
+    "title": "AgentSense: Virtual Sensor Data Generation Using LLM Agents in Simulated Home Environments",
+    "name": "AgentSense",
+    "path": "docs/source_material/papers/[AAAI'26]【AgentSense】家庭日程与虚拟环境传感 - AgentSense- Virtual Sensor Data Generation Using LLM Agents in Simulated Home Environments.pdf",
+    "sourceUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/37169",
+    "bytes": 10188706
+  },
+  {
+    "id": 102,
+    "title": "Large Language Models as Urban Residents: An LLM Agent Framework for Personal Mobility Generation",
+    "name": "LLMob",
+    "path": "docs/source_material/papers/[NeurIPS'24]【LLMob】签到习惯与动机检索 - Large Language Models as Urban Residents- An LLM Agent Framework for Personal Mobility Generation.pdf",
+    "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/e142fd2b70f10db2543c64bca1417de8-Abstract-Conference.html",
+    "bytes": 4371463
+  },
+  {
+    "id": 103,
+    "title": "Learning to Simulate Daily Activities via Modeling Dynamic Human Needs",
+    "name": "SAND",
+    "path": "docs/source_material/papers/[WWW'23]【SAND】连续需求流与事件跳变 - Learning to Simulate Daily Activities via Modeling Dynamic Human Needs.pdf",
+    "sourceUrl": "https://doi.org/10.1145/3543507.3583276",
+    "bytes": 1735855
   }
 ]
